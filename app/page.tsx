@@ -114,8 +114,9 @@ export default function Home() {
                   >
                     <div className="grid grid-rows-2">
                       <div>
-                        <div className="font-bold text-2xl md:text-xl">
-                          Web & Mobile Development
+                        <div className="font-bold flex-col text-2xl md:text-xl">
+                          <div>Branding</div>
+                          <div> & Design</div>
                         </div>
                         <div className="h-auto font-light text-lg pt-6">
                           We provide fast, reliable, and secure mobile and web
@@ -140,9 +141,7 @@ export default function Home() {
                   >
                     <div className="grid grid-rows-2">
                       <div>
-                        <div className="font-bold text-2xl md:text-xl">
-                          Web & Mobile Development
-                        </div>
+                        <div className="font-bold text-2xl md:text-xl"></div>
                         <div className="h-auto font-light text-lg pt-6">
                           We provide fast, reliable, and secure mobile and web
                           applications with consistent design across mobile and
@@ -303,6 +302,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+
       <section className="w-full h-auto py-[8%]">
         <div className="w-full text-center">
           <div className="text-center font-bold text-4xl">

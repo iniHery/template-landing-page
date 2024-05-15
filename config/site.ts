@@ -1,7 +1,7 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Next.js + NextUI",
+  name: "NEXCreative",
   description: "Make beautiful websites regardless of your design experience.",
   navItems: [
     {
@@ -12,10 +12,7 @@ export const siteConfig = {
       label: "Services",
       href: "/services",
     },
-    {
-      label: "Team",
-      href: "/team",
-    },
+
     {
       label: "Portofolio",
       href: "/portofolio",
@@ -27,17 +24,14 @@ export const siteConfig = {
   ],
   navMenuItems: [
     {
-      label: "Dashboard",
-      href: "/dashboard",
+      label: "Home",
+      href: "/",
     },
     {
       label: "Services",
       href: "/services",
     },
-    {
-      label: "Team",
-      href: "/team",
-    },
+
     {
       label: "Portofolio",
       href: "/portofolio",
@@ -45,10 +39,6 @@ export const siteConfig = {
     {
       label: "About",
       href: "/about",
-    },
-    {
-      label: "Logout",
-      href: "/logout",
     },
   ],
   links: {
