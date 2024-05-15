@@ -43,7 +43,7 @@ export default function AboutPage() {
           <div className="my-10">
             <div className="pb-6 text-2xl font-semibold">Meet the team</div>
             <div className="text-6xl max-w-xl font-bold pb-6">
-              The creative people behind Yello
+              The creative people behind NEXCreative
             </div>
             <div className="pb-4 text-xl font-regular">OUR MISSION</div>
             <div className="text-lg font-light max-w-4xl">
