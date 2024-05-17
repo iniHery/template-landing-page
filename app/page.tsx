@@ -119,33 +119,9 @@ export default function Home() {
                           <div> & Design</div>
                         </div>
                         <div className="h-auto font-light text-lg pt-6">
-                          We provide fast, reliable, and secure mobile and web
-                          applications with consistent design across mobile and
-                          desktop.
-                        </div>
-                      </div>
-
-                      <div className="pt-[100px] md:pt-[28px]">
-                        <Button color="primary" variant="ghost">
-                          Learn More
-                        </Button>
-                      </div>
-                    </div>
-                  </Card>
-                </div>
-
-                <div className="flex justify-center">
-                  <Card
-                    className="w-full md:w-full lg:w-full h-[46vh] md:h-[34vh] lg:h-[40vh] space-y-5 p-4"
-                    radius="lg"
-                  >
-                    <div className="grid grid-rows-2">
-                      <div>
-                        <div className="font-bold text-2xl md:text-xl"></div>
-                        <div className="h-auto font-light text-lg pt-6">
-                          We provide fast, reliable, and secure mobile and web
-                          applications with consistent design across mobile and
-                          desktop.
+                          We offer web3 and solidity engineering services for
+                          Crypto Tokens, NFT projects, and DeFi on
+                          EVM-compatible blockchains.
                         </div>
                       </div>
 
@@ -166,12 +142,39 @@ export default function Home() {
                     <div className="grid grid-rows-2">
                       <div>
                         <div className="font-bold text-2xl md:text-xl">
-                          Web & Mobile Development
+                          Database, Server & API
                         </div>
                         <div className="h-auto font-light text-lg pt-6">
-                          We provide fast, reliable, and secure mobile and web
-                          applications with consistent design across mobile and
-                          desktop.
+                          We provide highly scalable network & realtime
+                          infrastructure that provides fast respons times across
+                          countries, devices & keeps your intellectual property
+                          safe.
+                        </div>
+                      </div>
+
+                      <div className="pt-[100px] md:pt-[28px]">
+                        <Button color="primary" variant="ghost">
+                          Learn More
+                        </Button>
+                      </div>
+                    </div>
+                  </Card>
+                </div>
+
+                <div className="flex justify-center">
+                  <Card
+                    className="w-full md:w-full lg:w-full h-[46vh] md:h-[34vh] lg:h-[40vh] space-y-5 p-4"
+                    radius="lg"
+                  >
+                    <div className="grid grid-rows-2">
+                      <div>
+                        <div className="font-bold text-2xl md:text-xl">
+                          Branding & Design
+                        </div>
+                        <div className="h-auto font-light text-lg pt-6">
+                          We offer a wide range of design services centered
+                          around High-level Design Prototypes, UX Psychology
+                          Principles, and Brand Positioning
                         </div>
                       </div>
 
