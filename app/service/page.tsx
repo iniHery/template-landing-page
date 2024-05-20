@@ -7,7 +7,7 @@ import { useRef } from "react";
 import { useInView } from "framer-motion";
 import { motion } from "framer-motion";
 import React, { ReactNode, FC } from "react";
-import "../../styles/style.css";
+// import "../../styles/style.css";
 import Image from "next/image";
 
 interface SectionProps {
@@ -80,9 +80,10 @@ export default function ServicePage() {
                       <li>E-commerce websites</li>
                     </ul>
                   </div>
+
                   <div>
                     <Button
-                      className="px-8 font-bold text-md py-6 rounded-xl w-[250px]"
+                      className="px-8 font-bold text-md py-6 shadow-lg rounded-full w-[250px] bg-[#F78365]"
                       color="primary"
                     >
                       Consultation
@@ -90,10 +91,11 @@ export default function ServicePage() {
                   </div>
                 </div>
                 <Image
-                  src="/web.jpg"
-                  alt="Picture of the author"
-                  width={700}
-                  height={700}
+                  src="https://img.freepik.com/free-vector/organic-flat-web-design-illustration_52683-60701.jpg?t=st=1716174427~exp=1716178027~hmac=8f6ae5164f7a81d0686fd2d8cc0c81be62309c4b34394b3bf1b838b44e1d0ab9&w=1060"
+                  alt="A photo of a serene lake in the mountains"
+                  width={500}
+                  height={500}
+                  layout="responsive"
                 />
               </div>
             </div>
@@ -108,10 +110,11 @@ export default function ServicePage() {
               <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-1 gap-8">
                 <div className="col-span-1 md:pt-0 pt-10 grid items-center">
                   <Image
-                    src="/web.jpg"
-                    alt="Picture of the author"
-                    width={700}
-                    height={700}
+                    src="https://img.freepik.com/free-vector/organic-flat-web-search-illustration_52683-60699.jpg?t=st=1716174487~exp=1716178087~hmac=cd0220befb9762231ab3ddc0ba7683d60eab75c1bc9c6b43b5baec3f52bf8e58&w=1060"
+                    alt="A photo of a serene lake in the mountains"
+                    width={500}
+                    height={500}
+                    layout="responsive"
                   />
                 </div>
                 <div className="grid items-center">
@@ -137,7 +140,7 @@ export default function ServicePage() {
                   </div>
                   <div>
                     <Button
-                      className="px-8 font-bold text-md py-6 rounded-xl w-[250px]"
+                      className="px-8 font-bold text-md py-6 shadow-lg rounded-full w-[250px] bg-[#F78365]"
                       color="primary"
                     >
                       Consultation
@@ -179,7 +182,7 @@ export default function ServicePage() {
                   </div>
                   <div>
                     <Button
-                      className="px-8 font-bold text-md py-6 rounded-xl w-[250px]"
+                      className="px-8 font-bold text-md py-6 shadow-lg rounded-full w-[250px] bg-[#F78365]"
                       color="primary"
                     >
                       Consultation
@@ -187,10 +190,11 @@ export default function ServicePage() {
                   </div>
                 </div>
                 <Image
-                  src="/web.jpg"
-                  alt="Picture of the author"
-                  width={700}
-                  height={700}
+                  src="https://img.freepik.com/free-vector/organic-flat-online-shopping-illustration_52683-60704.jpg?t=st=1716174965~exp=1716178565~hmac=8bd8ce397410dcb5255f51872745deb5b75ed70ffbe1b8a6b725e1e9d29364ea&w=1060"
+                  alt="A photo of a serene lake in the mountains"
+                  width={500}
+                  height={500}
+                  layout="responsive"
                 />
               </div>
             </div>
@@ -205,10 +209,11 @@ export default function ServicePage() {
               <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-1 gap-8">
                 <div className="col-span-1 md:pt-0 pt-10 grid items-center">
                   <Image
-                    src="/web.jpg"
-                    alt="Picture of the author"
-                    width={700}
-                    height={700}
+                    src="https://img.freepik.com/free-vector/organic-flat-contact-us-illustration_52683-60703.jpg?t=st=1716174917~exp=1716178517~hmac=dfb50281a974c9a76b629c03f45c941a0add2ce71206387f86c44fa1ea787c9b&w=1060"
+                    alt="A photo of a serene lake in the mountains"
+                    width={500}
+                    height={500}
+                    layout="responsive"
                   />
                 </div>
                 <div className="grid items-center">
@@ -237,12 +242,14 @@ export default function ServicePage() {
                     </ul>
                   </div>
                   <div>
-                    <Button
-                      className="px-8 font-bold text-md py-6 rounded-xl w-[250px]"
-                      color="primary"
-                    >
-                      Consultation
-                    </Button>
+                    <div>
+                      <Button
+                        className="px-8 font-bold text-md py-6 shadow-lg rounded-full w-[250px] bg-[#F78365]"
+                        color="primary"
+                      >
+                        Consultation
+                      </Button>
+                    </div>
                   </div>
                 </div>
               </div>

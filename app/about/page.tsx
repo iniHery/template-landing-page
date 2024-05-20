@@ -2,6 +2,7 @@ import { title } from "@/components/primitives";
 import { Button } from "@nextui-org/react";
 import { Card } from "@nextui-org/card";
 import { Skeleton } from "@nextui-org/react";
+import Image from "next/image";
 
 export default function AboutPage() {
   return (
@@ -29,9 +30,16 @@ export default function AboutPage() {
                 </div>
               </div>
               <div className="col-span-2 md:pt-0 pt-10">
-                <Skeleton className="rounded-lg">
-                  <div className="h-[50vh] w-[20%] px-10 rounded-lg bg-default-300"></div>
-                </Skeleton>
+                <div>
+                  <Image
+                    className="rounded-2xl"
+                    src="https://img.freepik.com/free-photo/smiling-young-web-developers-posing-around-table-with-laptops-it-indoor-portrait-asian-student-with-black-hair-spending-time-with-friends-university_197531-3734.jpg?t=st=1716118784~exp=1716122384~hmac=c2dfb3c7ca7ab2940fc303172dccab58f5773a27419fdbdc3871a63464335c89&w=1800"
+                    alt="A photo of a serene lake in the mountains"
+                    width={100}
+                    height={50}
+                    layout="responsive"
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -40,13 +48,15 @@ export default function AboutPage() {
 
       <section className="w-full">
         <div className="grid items-center h-auto">
-          <div className="my-10">
-            <div className="pb-6 text-2xl font-semibold">Meet the team</div>
+          <div className="my-0">
+            <div className="pb-6 text-2xl font-semibold text-[#7988EF]">
+              Meet the team
+            </div>
             <div className="text-6xl max-w-xl font-bold pb-6">
               The creative people behind NEXCreative
             </div>
             <div className="pb-4 text-xl font-regular">OUR MISSION</div>
-            <div className="text-lg font-light max-w-4xl">
+            <div className="text-lg font-light max-w-4xl pb-6">
               We have worked with analytics, logistics, and crypto platforms to
               innovate ideas that have a global impact. Our mission through it
               all is to give small to midsize businesses access to world-class

@@ -3,7 +3,6 @@
 import React from "react";
 import { title } from "@/components/primitives";
 import { Button } from "flowbite-react";
-import TabsPortofolio from "../tabs-portofolio";
 import { Tabs, Tab, Card, CardBody } from "@nextui-org/react";
 
 import { Image } from "@nextui-org/react";
@@ -17,7 +16,7 @@ export default function PortofolioPage() {
           <div className="justify-start items-center h-auto py-10">
             <div className="text-2xl font-medium">Portofolio</div>
             <div className="max-w-[100vh] text-7xl font-bold">
-              At Yello, we bring your best ideas to life
+              At NEXCreative, we bring your best ideas to life
             </div>
           </div>
         </div>
