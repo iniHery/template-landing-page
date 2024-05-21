@@ -4,7 +4,6 @@ import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
 import { Providers } from "./providers";
 import { Navbar } from "@/components/navbar";
-import { Link } from "@nextui-org/link";
 import clsx from "clsx";
 import Image from "next/image";
 
@@ -16,7 +15,7 @@ export const metadata: Metadata = {
   description: siteConfig.description,
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "white" },
-    { media: "(prefers-color-scheme: dark)", color: "black" },
+    // { media: "(prefers-color-scheme: dark)", color: "black" },
   ],
   icons: {
     icon: "/favicon.ico",
@@ -32,10 +31,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head />
+      <head className="bg-white" />
       <body
         className={clsx(
-          "min-h-screen bg-background font-sans antialiased",
+          "min-h-screen bg-white font-sans antialiased",
           fontSans.variable
         )}
       >

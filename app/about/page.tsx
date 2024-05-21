@@ -1,51 +1,80 @@
+"use client";
+
 import { title } from "@/components/primitives";
 import { Button } from "@nextui-org/react";
 import { Card } from "@nextui-org/card";
 import { Skeleton } from "@nextui-org/react";
 import Image from "next/image";
+import { useRef } from "react";
+import { useInView } from "framer-motion";
+import React, { ReactNode, FC } from "react";
+import { motion } from "framer-motion";
+
+interface SectionProps {
+  children: ReactNode;
+}
+
+const Section: React.FC<SectionProps> = ({ children }) => {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
+
+  return (
+    <section ref={ref}>
+      <span
+        style={{
+          transform: isInView ? "none" : "translateX(-200px)",
+          opacity: isInView ? 1 : 0,
+          transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
+        }}
+      >
+        {children}
+      </span>
+    </section>
+  );
+};
 
 export default function AboutPage() {
   return (
     <div className="bg-white">
-      {/* <h1 className={title()}>About</h1> */}
-      <section className="h-full md:h-screen ">
-        <div className="my-[8%] flex justify-center items-center">
-          <div className="grid justify-center items-center">
-            <div className="grid grid-cols-1 md:grid-cols-3 grid-rows-1">
-              <div className="grid items-center">
-                <div className="font-bold text-6xl">Why Nex?</div>
-                <div className="pr-10 font-light text-2xl py-8">
-                  We are a thought collective, working directly with our clients
-                  to create, build, and grow holistic software experiences.
-                  Using creative and critical thinking to tell our clients
-                  story.
+      <Section>
+        <div className="h-full md:h-screen">
+          <div className="mb-[8%] mt-10 flex justify-center items-center">
+            <div className="grid justify-center items-center">
+              <div className="grid grid-cols-1 md:grid-cols-3 grid-rows-1">
+                <div className="grid items-center">
+                  <div className="font-bold text-6xl">Why Nex?</div>
+                  <div className="pr-10 font-light text-2xl py-8">
+                    We are a thought collective, working directly with our
+                    clients to create, build, and grow holistic software
+                    experiences. Using creative and critical thinking to tell
+                    our clients story.
+                  </div>
+                  <div>
+                    <Button
+                      className="px-8 font-bold text-md py-6 rounded-full w-[250px]"
+                      color="primary"
+                    >
+                      Learn More
+                    </Button>
+                  </div>
                 </div>
-                <div>
-                  <Button
-                    className="px-8 font-bold text-md py-6 rounded-full w-[250px]"
-                    color="primary"
-                  >
-                    Learn More
-                  </Button>
-                </div>
-              </div>
-              <div className="col-span-2 md:pt-0 pt-10">
-                <div>
-                  <Image
-                    className="rounded-2xl"
-                    src="https://img.freepik.com/free-photo/smiling-young-web-developers-posing-around-table-with-laptops-it-indoor-portrait-asian-student-with-black-hair-spending-time-with-friends-university_197531-3734.jpg?t=st=1716118784~exp=1716122384~hmac=c2dfb3c7ca7ab2940fc303172dccab58f5773a27419fdbdc3871a63464335c89&w=1800"
-                    alt="A photo of a serene lake in the mountains"
-                    width={100}
-                    height={50}
-                    layout="responsive"
-                  />
+                <div className="col-span-2 md:pt-0 pt-10">
+                  <div>
+                    <Image
+                      className="rounded-2xl"
+                      src="https://img.freepik.com/free-photo/smiling-young-web-developers-posing-around-table-with-laptops-it-indoor-portrait-asian-student-with-black-hair-spending-time-with-friends-university_197531-3734.jpg?t=st=1716118784~exp=1716122384~hmac=c2dfb3c7ca7ab2940fc303172dccab58f5773a27419fdbdc3871a63464335c89&w=1800"
+                      alt="A photo of a serene lake in the mountains"
+                      width={100}
+                      height={50}
+                      layout="responsive"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-
+      </Section>
       <section className="w-full">
         <div className="grid items-center h-auto">
           <div className="my-0">
