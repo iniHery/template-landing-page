@@ -7,7 +7,6 @@ import { useRef } from "react";
 import { useInView } from "framer-motion";
 import { motion } from "framer-motion";
 import React, { ReactNode, FC } from "react";
-// import "../../styles/style.css";
 import Image from "next/image";
 
 interface SectionProps {
@@ -36,21 +35,23 @@ const Section: React.FC<SectionProps> = ({ children }) => {
 export default function ServicePage() {
   return (
     <div>
-      <section className="h-[80vh] flex justify-start items-center">
-        <div className="flex justify-center items-center h-auto flex-col">
-          <div className="justify-start items-center h-auto py-10">
-            <div className="text-2xl font-medium">Service</div>
-            <div className="max-w-[120vh] text-5xl md:text-7xl font-bold">
-              We build digital products, brands & experiences.
-            </div>
-            <div className="max-w-[120vh] text-md md:text-lg font-light pt-10">
-              NEXCreative also provides a full suite of additional services,
-              from full-time development and design teams to in-depth marketing
-              and customer acquisition strategies.
+      <Section>
+        <div className="h-[80vh] flex justify-start items-center">
+          <div className="flex justify-center items-center h-auto flex-col">
+            <div className="justify-start items-center h-auto py-10">
+              <div className="text-2xl font-medium">Service</div>
+              <div className="max-w-[120vh] text-5xl md:text-7xl font-bold">
+                We build digital products, brands & experiences.
+              </div>
+              <div className="max-w-[120vh] text-md md:text-lg font-light pt-10">
+                NEXCreative also provides a full suite of additional services,
+                from full-time development and design teams to in-depth
+                marketing and customer acquisition strategies.
+              </div>
             </div>
           </div>
         </div>
-      </section>
+      </Section>
 
       <Section>
         <div className="h-full md:h-full">

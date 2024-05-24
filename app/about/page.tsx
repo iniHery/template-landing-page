@@ -43,20 +43,28 @@ export default function AboutPage() {
               <div className="grid grid-cols-1 md:grid-cols-3 grid-rows-1">
                 <div className="grid items-center">
                   <div className="font-bold text-6xl">Why Nex?</div>
-                  <div className="pr-10 font-light text-2xl py-8">
+                  <div className="pr-10 font-light text-lg md:text-xl py-8">
                     We are a thought collective, working directly with our
                     clients to create, build, and grow holistic software
                     experiences. Using creative and critical thinking to tell
                     our clients story.
                   </div>
-                  <div>
+                  <div className="pr-10 font-light text-lg md:text-xl py-8">
+                    Our inherent eye for problem-solving reflects seamlessly
+                    through all aspects of our work and is a massive part of our
+                    company's culture; at Yello, we encourage questions and
+                    value our team of enthusiastic dreamers. We believe our
+                    positive approach to work is a key differentiator in Yello's
+                    success in producing quality first.
+                  </div>
+                  {/* <div>
                     <Button
-                      className="px-8 font-bold text-md py-6 rounded-full w-[250px]"
+                      className="px-8 font-bold bg-[#9FAAF4] text-md py-6 rounded-full w-[250px]"
                       color="primary"
                     >
                       Learn More
                     </Button>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="col-span-2 md:pt-0 pt-10">
                   <div>
@@ -81,7 +89,7 @@ export default function AboutPage() {
             <div className="pb-6 text-2xl font-semibold text-[#7988EF]">
               Meet the team
             </div>
-            <div className="text-6xl max-w-xl font-bold pb-6">
+            <div className="text-5xl md:text-6xl w-full md:max-w-xl font-bold pb-6">
               The creative people behind NEXCreative
             </div>
             <div className="pb-4 text-xl font-regular">OUR MISSION</div>

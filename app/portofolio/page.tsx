@@ -15,7 +15,7 @@ export default function PortofolioPage() {
         <div className="flex justify-center items-center h-auto flex-col">
           <div className="justify-start items-center h-auto py-10">
             <div className="text-2xl font-medium">Portofolio</div>
-            <div className="max-w-[100vh] text-7xl font-bold">
+            <div className="md:max-w-[100vh] max-w-[260px] text-5xl md:text-7xl font-bold">
               At NEXCreative, we bring your best ideas to life
             </div>
           </div>
@@ -39,7 +39,7 @@ export default function PortofolioPage() {
                             src="/p1.png"
                           /> */}
                         </div>
-                        <div className="bg-blue-200 p-6 rounded-2xl h-[26vh] md:h-[60vh]"></div>
+                        <div className="bg-[#7988EF] p-6 rounded-2xl h-[26vh] md:h-[60vh]"></div>
                       </div>
                     </CardBody>
                     <CardBody className="w-full h-full px-0 py-4 md:py-10">
@@ -50,19 +50,19 @@ export default function PortofolioPage() {
                             <div>with NEX.</div>
                           </div>
                         </div>
-                        <div className="bg-blue-200 p-6 rounded-2xl h-[20vh] md:h-[40vh]"></div>
+                        <div className="bg-[#F66641] p-6 rounded-2xl h-[20vh] md:h-[40vh]"></div>
                         <div className="bg-blue-200 p-6 rounded-2xl h-[20vh] md:h-[40vh]"></div>
                       </div>
                     </CardBody>
                     <CardBody className="w-full p-0">
                       <div className="grid grid-cols-3 gap-4 md:gap-10">
-                        <div className="bg-blue-200 p-6 rounded-2xl h-[26vh] md:h-[60vh]"></div>
+                        <div className="bg-[#FFE8F0] p-6 rounded-2xl h-[26vh] md:h-[60vh]"></div>
                         <div className="col-span-2 bg-blue-200 p-6 rounded-2xl h-[26vh] md:h-[60vh]"></div>
                       </div>
                     </CardBody>
                     <CardBody className="w-full h-full px-0 py-4 md:py-10">
                       <div className="grid grid-cols-3 gap-4 md:gap-10">
-                        <div className="bg-blue-200 col-span-2 p-6 rounded-2xl h-[26vh] md:h-[60vh]"></div>
+                        <div className="bg-[#FFA712] col-span-2 p-6 rounded-2xl h-[26vh] md:h-[60vh]"></div>
                         <div>
                           <div className="p-4 h-full flex flex-col justify-center items-start text-md md:text-4xl font-bold leading-4">
                             <div>Develop a better</div>
