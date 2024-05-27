@@ -1,20 +1,12 @@
 "use client";
 
 import { Link } from "@nextui-org/link";
-import { Snippet } from "@nextui-org/snippet";
-import { Code } from "@nextui-org/code";
-import { button as buttonStyles } from "@nextui-org/theme";
-import { siteConfig } from "@/config/site";
-import { title, subtitle } from "@/components/primitives";
-import { GithubIcon } from "@/components/icons";
 import { Button } from "@nextui-org/react";
 import { Card } from "@nextui-org/card";
-import { Skeleton } from "@nextui-org/react";
 import Image from "next/image";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
-import KeenSlider from "keen-slider";
-import Footer from "./footer";
+import { Accordion, AccordionItem } from "@nextui-org/react";
 import {
   BsDribbble,
   BsFacebook,
@@ -23,7 +15,7 @@ import {
   BsTwitter,
 } from "react-icons/bs";
 
-const animation = { duration: 10000, easing: (t: number) => t };
+const animation = { duration: 15000, easing: (t: number) => t };
 
 export default function Home() {
   const [sliderRef] = useKeenSlider({
@@ -50,15 +42,51 @@ export default function Home() {
     },
   });
 
+  const faq1 = (
+    <p className="text-gray-700 leading-relaxed font-light">
+      Usually we would set up an introductory meeting to understand your idea
+      better. This can be done via online. During the video call, it would be
+      useful to inform us of your expectations and define the goals of the
+      website or mobile app you are about to make with us. Afterwards, we will
+      write a technical design documentation which will be our guide throughout
+      the design and development process. [Contact us]
+    </p>
+  );
+
+  const faq2 = (
+    <p className="text-gray-700 leading-relaxed font-light">
+      We build all our sites using React and NextJS (server side react). Check
+      out on what we can do to build [your custom website]
+    </p>
+  );
+
+  const faq3 = (
+    <p className="text-gray-700 leading-relaxed font-light">
+      For over 8 years of experience helping startups grow, Yello and Komang
+      (CEO & Founder) has been involved in the development of several
+      best-in-class companies across Indonesia and the United States.
+    </p>
+  );
+
+  const faq4 = (
+    <p className="text-gray-700 leading-relaxed font-light">
+      Yes we do. You can hire us based on your needs. Nex provides backend
+      engineer, frontend engineer, QA engineer, and project manager. Hiring
+      remote development combines low-cost software development and
+      highly-skilled employees.
+    </p>
+  );
+
   return (
     <div>
+      {/* Hero Section */}
       <section className="relative h-[80vh] max-w-full md:py-6">
-        <div className="h-[80vh] flex justify-start items-center">
+        <div className="container mx-auto h-[80vh] flex justify-start items-center">
           <div className="container">
             <div className="grid grid-cols-1 md:grid-cols-3">
               <div className="flex justify-start items-center">
                 <div className="block">
-                  <div className="max-w-lg font-bold md:text-5xl text-4xl text-start">
+                  <div className="max-w-xl font-bold md:text-5xl text-4xl text-start">
                     Nex gives small to midsize businesses access to world class
                     software & design
                   </div>
@@ -86,7 +114,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* Hero Section */}
 
+      {/* Service */}
       <section className="relative h-full  flex flex-col md:mt-[6%] md:py-10">
         <div className="md:h-full h-auto flex justify-center items-start">
           <div className="container">
@@ -98,7 +128,7 @@ export default function Home() {
               <div className="grid md:grid-cols-2 lg:grid-cols-4 md:gap-4 grid-cols-1 gap-4">
                 <div className="flex justify-center">
                   <Card
-                    className="w-full md:w-full lg:w-full h-[46vh] md:h-full  space-y-5 p-4"
+                    className="w-full md:w-full lg:w-full h-[46vh] md:h-[46vh]  space-y-5 p-4"
                     radius="lg"
                   >
                     <div className="grid grid-rows-2">
@@ -142,7 +172,7 @@ export default function Home() {
 
                 <div className="flex justify-center">
                   <Card
-                    className="w-full md:w-full lg:w-full h-[46vh] md:h-full  space-y-5 p-4"
+                    className="w-full md:w-full lg:w-full h-[46vh] md:h-[46vh] space-y-5 p-4"
                     radius="lg"
                   >
                     <div className="grid grid-rows-2">
@@ -188,13 +218,14 @@ export default function Home() {
 
                 <div className="flex justify-center">
                   <Card
-                    className="w-full md:w-full lg:w-full h-[46vh] md:h-full  space-y-5 p-4"
+                    className="w-full md:w-full lg:w-full h-[46vh] md:h-[46vh]  space-y-5 p-4"
                     radius="lg"
                   >
                     <div className="grid grid-rows-2">
                       <div>
-                        <div className="font-bold text-xl md:text-2xl text-[#F66641]">
-                          Database, Server & API
+                        <div className="font-bold text-xl md:text-2xl text-[#F66641] block">
+                          <div>Database, Server &</div>
+                          <div>API</div>
                         </div>
                         <div className="h-auto font-light text-lg pt-6">
                           We provide highly scalable network & realtime
@@ -234,13 +265,14 @@ export default function Home() {
 
                 <div className="flex justify-center">
                   <Card
-                    className="w-full h-[46vh] md:h-full  space-y-5 p-4"
+                    className="w-full h-[46vh] md:h-[46vh] space-y-5 p-4"
                     radius="lg"
                   >
                     <div className="grid grid-rows-2">
                       <div>
-                        <div className="font-bold text-xl md:text-2xl text-[#F66641]">
-                          Branding & Design
+                        <div className="font-bold text-xl md:text-2xl text-[#F66641] block">
+                          <div>Branding &</div>
+                          <div>Design</div>
                         </div>
                         <div className="h-auto font-light text-lg pt-6">
                           We offer a wide range of design services centered
@@ -281,7 +313,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* Service */}
 
+      {/* Custom App Develop */}
       <section className="relative h-full md:py-0 py-20 md:mt-20 flex flex-col">
         <div className="w-full flex justify-center items-center">
           <div className="font-bold text-5xl md:text-6xl md:mb-10 mt-[20%] md:mt-[2%] ld:mt-[0%] text-center">
@@ -419,7 +453,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* Custom App Develop */}
 
+      {/* Portofolio */}
       <section className="relative h-full flex flex-col md:mt-[6%] md:py-10">
         <div className="text-center font-bold text-4xl md:text-6xl">
           Recent works
@@ -582,6 +618,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* Portofolio */}
 
       <section className="w-full h-auto py-[8%]">
         <div className="w-full text-center">
@@ -596,31 +633,15 @@ export default function Home() {
                 className="rounded-xl"
                 src="/nex-black.png"
                 alt="Picture of the author"
-                width={360}
-                height={360}
+                width={340}
+                height={340}
               />
               <Image
                 className="rounded-xl"
                 src="/nex-black.png"
                 alt="Picture of the author"
-                width={360}
-                height={360}
-              />
-            </div>
-            <div className="keen-slider__slide number-slide1 w-auto h-[30vh] grid justify-center items-center grid-cols-2 gap-10">
-              <Image
-                className="rounded-xl"
-                src="/nex-black.png"
-                alt="Picture of the author"
-                width={360}
-                height={360}
-              />
-              <Image
-                className="rounded-xl"
-                src="/nex-black.png"
-                alt="Picture of the author"
-                width={360}
-                height={360}
+                width={340}
+                height={340}
               />
             </div>
             <div className="keen-slider__slide number-slide1 w-auto h-[30vh] grid justify-center items-center grid-cols-2 gap-10">
@@ -628,15 +649,15 @@ export default function Home() {
                 className="rounded-xl"
                 src="/nex-black.png"
                 alt="Picture of the author"
-                width={360}
-                height={360}
+                width={340}
+                height={340}
               />
               <Image
                 className="rounded-xl"
                 src="/nex-black.png"
                 alt="Picture of the author"
-                width={360}
-                height={360}
+                width={340}
+                height={340}
               />
             </div>
             <div className="keen-slider__slide number-slide1 w-auto h-[30vh] grid justify-center items-center grid-cols-2 gap-10">
@@ -644,15 +665,31 @@ export default function Home() {
                 className="rounded-xl"
                 src="/nex-black.png"
                 alt="Picture of the author"
-                width={360}
-                height={360}
+                width={340}
+                height={340}
               />
               <Image
                 className="rounded-xl"
                 src="/nex-black.png"
                 alt="Picture of the author"
-                width={360}
-                height={360}
+                width={340}
+                height={340}
+              />
+            </div>
+            <div className="keen-slider__slide number-slide1 w-auto h-[30vh] grid justify-center items-center grid-cols-2 gap-10">
+              <Image
+                className="rounded-xl"
+                src="/nex-black.png"
+                alt="Picture of the author"
+                width={340}
+                height={340}
+              />
+              <Image
+                className="rounded-xl"
+                src="/nex-black.png"
+                alt="Picture of the author"
+                width={340}
+                height={340}
               />
             </div>
           </div>
@@ -694,7 +731,63 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="relative z-10">{/* <Footer /> */}</div>
+      <section>
+        <div className="py-10">
+          <div className="py-20 flex justify-center items-start">
+            <div className="font-bold text-6xl">Have any questions?</div>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 md:gap-10">
+            <div>
+              <Accordion variant="light">
+                <AccordionItem
+                  className="shadow-md px-6 py-2 my-6 rounded-xl font-semibold"
+                  key="1"
+                  aria-label="Accordion 1"
+                  title="How do I get started?"
+                >
+                  <div className="focus:border-2 border-[#FBCB78] active:border-[#FBCB78]">
+                    {faq1}
+                  </div>
+                </AccordionItem>
+              </Accordion>
+              <Accordion variant="light">
+                <AccordionItem
+                  className="shadow-md px-6 py-2 my-6 rounded-xl font-semibold"
+                  key="1"
+                  aria-label="Accordion 1"
+                  title="What platform do you use to build the website?"
+                >
+                  {faq2}
+                </AccordionItem>
+              </Accordion>
+            </div>
+            <div>
+              <Accordion variant="light">
+                <AccordionItem
+                  className="shadow-md px-6 py-2 md:my-6 mb-6 rounded-xl font-semibold"
+                  key="1"
+                  aria-label="Accordion 1"
+                  title="Have you worked with any large reputable brands?"
+                >
+                  <div className="focus:border-2 border-[#FBCB78] active:border-[#FBCB78]">
+                    {faq3}
+                  </div>
+                </AccordionItem>
+              </Accordion>
+              <Accordion variant="light">
+                <AccordionItem
+                  className="shadow-md px-6 py-2 my-6 rounded-xl font-semibold"
+                  key="1"
+                  aria-label="Accordion 1"
+                  title="Does Yello offer a remote engineering team?"
+                >
+                  {faq4}
+                </AccordionItem>
+              </Accordion>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
