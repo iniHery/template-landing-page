@@ -80,7 +80,7 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-3">
               <div className="flex justify-start items-center">
                 <div className="block">
-                  <div className="max-w-xl font-bold leading-relaxed md:text-5xl text-4xl text-start">
+                  <div className="max-w-xl font-bold md:leading-relaxed md:text-5xl text-4xl text-start">
                     Nex gives small to midsize businesses access to world class
                     software & design
                   </div>
@@ -89,7 +89,7 @@ export default function Home() {
                       href={siteConfig.links.whatsapp}
                       color="primary"
                       variant="shadow"
-                      className="flex items-center shadow-[#6B3EF1] bg-[#6B3EF1] text-lg font-medium py-6 px-10 "
+                      className="flex items-center shadow-[#6B3EF1] bg-[#6B3EF1] text-md md:text-lg font-medium py-6 px-8 md:px-10 "
                     >
                       Consultation Now
                     </Button>
@@ -115,7 +115,7 @@ export default function Home() {
       <section className="relative h-full  flex flex-col md:mt-[6%] md:py-10">
         <div className="md:h-full h-auto flex justify-center items-start">
           <div className="container">
-            <div className="font-[700] md:text-4xl leading-normal text-[34px] text-center">
+            <div className="font-[700] md:text-4xl md:leading-normal leading-9 text-[34px] text-center">
               Building apps & branding visions across a range of industries,
               markets, and countries through 4 core services:
             </div>
@@ -132,7 +132,7 @@ export default function Home() {
                           <div className="font-bold text-xl md:text-2xl text-[#F66641]">
                             Web & Mobile Development
                           </div>
-                          <div className="h-auto  font-thin text-gray-600 text-lg pt-6 leading-normal">
+                          <div className="h-auto font-light text-lg pt-6 leading-normal">
                             We provide fast, reliable, and secure mobile and web
                             applications with consistent design across mobile
                             and desktop.
@@ -177,9 +177,9 @@ export default function Home() {
                     >
                       <div className="grid grid-rows-2">
                         <div>
-                          <div className="font-bold flex-col text-xl md:text-2xl text-[#F66641]">
+                          <div className="font-bold flex md:flex-col text-xl md:text-2xl text-[#F66641]">
                             <div>Branding & </div>
-                            <div>Design</div>
+                            <div className="pl-1 md:pl-0">Design</div>
                           </div>
                           <div className="h-auto font-light text-lg pt-6 leading-normal">
                             We offer web3 and solidity engineering services for
@@ -227,9 +227,9 @@ export default function Home() {
                     >
                       <div className="grid grid-rows-2">
                         <div>
-                          <div className="font-bold text-xl md:text-2xl text-[#F66641] block">
+                          <div className="font-bold text-xl md:text-2xl text-[#F66641] flex md:block">
                             <div>Database, Server &</div>
-                            <div>API</div>
+                            <div className="pl-1 md:pl-0">API</div>
                           </div>
                           <div className="h-auto font-light text-lg pt-6 leading-normal">
                             We provide highly scalable network & realtime
@@ -278,9 +278,9 @@ export default function Home() {
                     >
                       <div className="grid grid-rows-2">
                         <div>
-                          <div className="font-bold text-xl md:text-2xl text-[#F66641] block">
+                          <div className="font-bold text-xl md:text-2xl text-[#F66641] flex md:block">
                             <div>Branding &</div>
-                            <div>Design</div>
+                            <div className="pl-1 md:pl-0">Design</div>
                           </div>
                           <div className="h-auto font-light text-lg pt-6 leading-normal">
                             We offer a wide range of design services centered
@@ -334,7 +334,7 @@ export default function Home() {
           </div>
         </div>
         <div className="flex justify-center items-center">
-          <div className="w-[60%]">
+          <div className="w-[60%] hidden md:block">
             <Image
               src="https://img.freepik.com/free-vector/check-out-online-media-mailing-cartoon-style-illustration_1150-37507.jpg?t=st=1716121204~exp=1716124804~hmac=a6ac384c2b48771739c6e1572c53563774500842b5ef6b554b8b5ad4cab908d3&w=1060"
               alt="A photo of a serene lake in the mountains"
@@ -351,7 +351,7 @@ export default function Home() {
               <div className="grid grid-rows-2">
                 <div>
                   <div className="grid justify-center items-center">
-                    <div className="h-[20vh] w-full mx-auto px-10 rounded-3xl bg-[#9FAAF4] grid justify-center items-center">
+                    <div className="h-[20vh] w-full mx-auto px-6 md:px-10 rounded-3xl bg-[#9FAAF4] grid justify-center items-center">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="96"
@@ -390,7 +390,7 @@ export default function Home() {
               <div className="grid grid-rows-2">
                 <div>
                   <div className="grid justify-center items-center">
-                    <div className="h-[20vh] w-full mx-auto px-10 rounded-3xl bg-[#FBCB78] grid justify-center items-center">
+                    <div className="h-[20vh] w-full mx-auto px-6 md:px-10 rounded-3xl bg-[#FBCB78] grid justify-center items-center">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="96"
@@ -429,7 +429,7 @@ export default function Home() {
               <div className="grid grid-rows-2">
                 <div>
                   <div className="grid justify-center items-center">
-                    <div className="h-[20vh] w-full mx-auto px-10 rounded-3xl bg-[#faa18a] grid justify-center items-center">
+                    <div className="h-[20vh] w-full mx-auto px-6 md:px-10 rounded-3xl bg-[#faa18a] grid justify-center items-center">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="96"
@@ -484,12 +484,21 @@ export default function Home() {
                       Web & Mobile Development, Branding & Design
                     </div>
                   </div>
-                  <div className="h-full grid md:grid-cols-2 grid-cols-1 pt-10 pb-6 justify-center items-center">
+                  <div className="block md:hidden pt-10 md:pt-0">
+                    <Image
+                      className="rounded-xl"
+                      src="/port2.png"
+                      alt="Picture of the author"
+                      width={700}
+                      height={700}
+                    />
+                  </div>
+                  <div className="h-full grid md:grid-cols-2 grid-cols-1 pt-4 md:pt-10 pb-6 justify-center items-center">
                     <div className="grid">
-                      <div className="font-bold text-xl md:text-4xl mb-10 text-start">
+                      <div className="font-bold text-xl md:text-4xl mb-10 text-center md:text-start">
                         Bali Jadma Tour - Agent Tour
                       </div>
-                      <div className="h-auto font-light text-lg text-gray-500 text-start pr-10 leading-normal">
+                      <div className="h-auto font-light text-lg text-gray-500 text-center md:text-start md:pr-10 leading-normal">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
                         magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -502,7 +511,7 @@ export default function Home() {
                       </div>
                     </div>
 
-                    <div>
+                    <div className="hidden md:block">
                       <Image
                         className="rounded-xl"
                         src="/port2.png"
@@ -512,13 +521,13 @@ export default function Home() {
                       />
                     </div>
                   </div>
-                  <div className="flex justify-between items-center">
-                    <div className="text-start">
+                  <div className="block md:flex md:justify-between md:items-center">
+                    <div className="text-center md:text-start">
                       <div className="font-regular text-[#FFA712]">
                         balijadmatour.com
                       </div>
                     </div>
-                    <div className="flex gap-8">
+                    <div className="flex justify-center pt-8 md:pt-0 gap-8">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="28"
@@ -527,13 +536,14 @@ export default function Home() {
                       >
                         <path
                           fill="none"
-                          stroke="black"
+                          stroke="gray"
                           stroke-linecap="round"
                           stroke-linejoin="round"
                           stroke-width="1.2"
                           d="m6 8l-4 4m0 0l4 4m-4-4h20"
                         />
                       </svg>
+                      <p className="text-gray-500">Slide</p>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="28"
@@ -542,7 +552,7 @@ export default function Home() {
                       >
                         <path
                           fill="none"
-                          stroke="black"
+                          stroke="gray"
                           stroke-linecap="round"
                           stroke-linejoin="round"
                           stroke-width="1.2"
@@ -564,16 +574,25 @@ export default function Home() {
               >
                 <div className="p-4 grid ">
                   <div>
-                    <div className="font-light text-2xl pb-2 text-[#FFA712]">
+                    <div className="font-light text-2xl pb-4 text-[#FFA712]">
                       Web & Mobile Development, Branding & Design
                     </div>
                   </div>
-                  <div className="h-full grid md:grid-cols-2 grid-cols-1 pt-10 pb-6 justify-center items-center">
+                  <div className="block md:hidden pt-10 md:pt-0">
+                    <Image
+                      className="rounded-xl"
+                      src="/port2.png"
+                      alt="Picture of the author"
+                      width={700}
+                      height={700}
+                    />
+                  </div>
+                  <div className="h-full grid md:grid-cols-2 grid-cols-1 pt-4 md:pt-10 pb-6 justify-center items-center">
                     <div className="grid">
-                      <div className="font-bold text-xl md:text-4xl pb-8 text-start">
+                      <div className="font-bold text-xl md:text-4xl mb-10 text-center md:text-start">
                         Bali Jadma Tour - Agent Tour
                       </div>
-                      <div className="h-auto font-light text-lg leading-normal text-gray-500 text-start pr-10">
+                      <div className="h-auto font-light text-lg text-gray-500 text-center md:text-start md:pr-10 leading-normal">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
                         magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -586,7 +605,7 @@ export default function Home() {
                       </div>
                     </div>
 
-                    <div>
+                    <div className="hidden md:block">
                       <Image
                         className="rounded-xl"
                         src="/port2.png"
@@ -596,13 +615,13 @@ export default function Home() {
                       />
                     </div>
                   </div>
-                  <div className="flex justify-between items-center">
-                    <div className="text-start">
+                  <div className="block md:flex md:justify-between md:items-center">
+                    <div className="text-center md:text-start">
                       <div className="font-regular text-[#FFA712]">
                         balijadmatour.com
                       </div>
                     </div>
-                    <div className="flex gap-8">
+                    <div className="flex justify-center pt-8 md:pt-0 gap-8">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="28"
@@ -611,13 +630,14 @@ export default function Home() {
                       >
                         <path
                           fill="none"
-                          stroke="black"
+                          stroke="gray"
                           stroke-linecap="round"
                           stroke-linejoin="round"
                           stroke-width="1.2"
                           d="m6 8l-4 4m0 0l4 4m-4-4h20"
                         />
                       </svg>
+                      <p className="text-gray-500">Slide</p>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="28"
@@ -626,7 +646,7 @@ export default function Home() {
                       >
                         <path
                           fill="none"
-                          stroke="black"
+                          stroke="gray"
                           stroke-linecap="round"
                           stroke-linejoin="round"
                           stroke-width="1.2"
