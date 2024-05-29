@@ -10,9 +10,10 @@ module.exports = {
   ],
   theme: {
     extend: {},
-    display: ["IBM Plex Mono", "Menlo", "monospace"],
-    body: ["IBM Plex Mono", "Menlo", "monospace"],
+    fontFamily: {
+      sans: ["Montserrat", "sans-serif"],
+    },
   },
-  darkMode: "class",
+  // darkMode: "class",
   plugins: [nextui()],
 };

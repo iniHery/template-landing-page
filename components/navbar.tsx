@@ -8,10 +8,7 @@ import {
   NavbarMenuItem,
 } from "@nextui-org/navbar";
 import { Button } from "@nextui-org/button";
-import { Kbd } from "@nextui-org/kbd";
 import { Link } from "@nextui-org/link";
-import { Input } from "@nextui-org/input";
-
 import { link as linkStyles } from "@nextui-org/theme";
 import Image from "next/image";
 import { siteConfig } from "@/config/site";

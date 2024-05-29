@@ -1,13 +1,11 @@
 "use client";
 
-import { title } from "@/components/primitives";
 import { Button } from "@nextui-org/react";
-import { Skeleton } from "@nextui-org/react";
 import { useRef } from "react";
 import { useInView } from "framer-motion";
-import { motion } from "framer-motion";
 import React, { ReactNode, FC } from "react";
 import Image from "next/image";
+import { siteConfig } from "@/config/site";
 
 interface SectionProps {
   children: ReactNode;
@@ -43,7 +41,7 @@ export default function ServicePage() {
               <div className="max-w-[120vh] text-5xl md:text-7xl font-bold">
                 We build digital products, brands & experiences.
               </div>
-              <div className="max-w-[120vh] text-md md:text-lg font-light pt-10">
+              <div className="max-w-[120vh] leading-normal text-md md:text-lg font-light pt-10">
                 NEXCreative also provides a full suite of additional services,
                 from full-time development and design teams to in-depth
                 marketing and customer acquisition strategies.
@@ -71,7 +69,7 @@ export default function ServicePage() {
                   <div className="font-bold text-4xl md:text-6xl ">
                     Web & Mobile App Development
                   </div>
-                  <div className="pr-10 font-light text-lg md:text-2xl py-8">
+                  <div className="pr-10 font-light leading-normal text-lg md:text-2xl py-8">
                     Technology and innovation is the heart of our creativity. We
                     combine imagination and functionality for the end users by
                     creating innovative product experiences. We deliver fast,
@@ -79,12 +77,12 @@ export default function ServicePage() {
                     inspiring design across mobile and desktop platforms.
                   </div>
                   <div className="pb-10 grid grid-cols-1 md:grid-cols-2 ">
-                    <ul className="list-disc pl-4 text-md md:text-lg font-semibold">
+                    <ul className="list-disc pl-4 leading-normal text-md md:text-lg font-semibold">
                       <li>Animated websites</li>
                       <li>React development</li>
                       <li>JavaScript development</li>
                     </ul>
-                    <ul className="list-disc pl-4 text-md md:text-lg font-semibold">
+                    <ul className="list-disc pl-4 leading-normal text-md md:text-lg font-semibold">
                       <li>iOS & Android development</li>
                       <li>Technical project management</li>
                       <li>E-commerce websites</li>
@@ -93,6 +91,7 @@ export default function ServicePage() {
 
                   <div>
                     <Button
+                      href={siteConfig.links.whatsapp}
                       className="px-8 font-bold text-md py-6 shadow-lg rounded-full w-[180px] md:w-[250px] bg-[#F78365]"
                       color="primary"
                     >
@@ -152,6 +151,7 @@ export default function ServicePage() {
                   </div>
                   <div>
                     <Button
+                      href={siteConfig.links.whatsapp}
                       className="px-8 font-bold text-md py-6 shadow-lg rounded-full w-[180px] md:w-[250px] bg-[#F78365]"
                       color="primary"
                     >
@@ -203,6 +203,7 @@ export default function ServicePage() {
                   </div>
                   <div>
                     <Button
+                      href={siteConfig.links.whatsapp}
                       className="px-8 font-bold text-md py-6 shadow-lg rounded-full w-[250px] bg-[#F78365]"
                       color="primary"
                     >
@@ -267,6 +268,7 @@ export default function ServicePage() {
                   <div>
                     <div>
                       <Button
+                        href={siteConfig.links.whatsapp}
                         className="px-8 font-bold text-md py-6 shadow-lg rounded-full w-[180px] md:w-[250px] bg-[#F78365]"
                         color="primary"
                       >

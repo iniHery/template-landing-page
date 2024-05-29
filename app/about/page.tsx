@@ -1,14 +1,9 @@
 "use client";
 
-import { title } from "@/components/primitives";
-import { Button } from "@nextui-org/react";
-import { Card } from "@nextui-org/card";
-import { Skeleton } from "@nextui-org/react";
 import Image from "next/image";
 import { useRef } from "react";
 import { useInView } from "framer-motion";
 import React, { ReactNode, FC } from "react";
-import { motion } from "framer-motion";
 
 interface SectionProps {
   children: ReactNode;
@@ -43,34 +38,26 @@ export default function AboutPage() {
               <div className="grid grid-cols-1 md:grid-cols-3 grid-rows-1">
                 <div className="grid items-center">
                   <div className="font-bold text-6xl">Why Nex?</div>
-                  <div className="pr-10 font-light text-lg md:text-xl py-8">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Facere deserunt dignissimos, tempore veritatis quidem vero
-                    eveniet. Animi iure delectus cupiditate dicta odio earum,
-                    non sunt architecto sequi mollitia dolore optio.
+                  <div className="pr-10 font-light leading-normal text-lg md:text-xl py-8">
+                    NEX is a multidisciplinary software engineering company with
+                    over eight years of experience in the startup and enterprise
+                    world, focusing on helping aspiring entrepreneurs, promising
+                    startups, and growing companies build their greatest ideas.
                   </div>
-                  <div className="pr-10 font-light text-lg md:text-xl py-8">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur.
+                  <div className="pr-10 font-light leading-normal text-lg md:text-xl py-8">
+                    Our inherent eye for problem-solving reflects seamlessly
+                    through all aspects of our work and is a massive part of our
+                    company&apos;s culture; at NEX, we encourage questions and
+                    value our team of enthusiastic dreamers. We believe our
+                    positive approach to work is a key differentiator in
+                    NEX&apos;s success in producing quality first.
                   </div>
-                  {/* <div>
-                    <Button
-                      className="px-8 font-bold bg-[#9FAAF4] text-md py-6 rounded-full w-[250px]"
-                      color="primary"
-                    >
-                      Learn More
-                    </Button>
-                  </div> */}
                 </div>
                 <div className="col-span-2 md:pt-0 pt-10">
                   <div>
                     <Image
                       className="rounded-2xl"
-                      src="https://img.freepik.com/free-photo/smiling-young-web-developers-posing-around-table-with-laptops-it-indoor-portrait-asian-student-with-black-hair-spending-time-with-friends-university_197531-3734.jpg?t=st=1716118784~exp=1716122384~hmac=c2dfb3c7ca7ab2940fc303172dccab58f5773a27419fdbdc3871a63464335c89&w=1800"
+                      src="https://plus.unsplash.com/premium_photo-1677171749355-4ad563d86165?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                       alt="A photo of a serene lake in the mountains"
                       width={100}
                       height={50}
@@ -86,14 +73,12 @@ export default function AboutPage() {
       <section className="w-full">
         <div className="grid items-center h-auto">
           <div className="my-0">
-            <div className="pb-6 text-2xl font-semibold text-[#7988EF]">
-              Meet the team
-            </div>
+            <div className="pb-6 text-2xl font-semibold ">Meet the team</div>
             <div className="text-5xl md:text-6xl w-full md:max-w-xl font-bold pb-6">
               The creative people behind NEXCreative
             </div>
             <div className="pb-4 text-xl font-regular">OUR MISSION</div>
-            <div className="text-lg font-light max-w-4xl pb-6">
+            <div className="text-lg font-light leading-normal max-w-4xl pb-6">
               We have worked with analytics, logistics, and crypto platforms to
               innovate ideas that have a global impact. Our mission through it
               all is to give small to midsize businesses access to world-class
@@ -107,7 +92,7 @@ export default function AboutPage() {
               </div>
               <div className="p-2 justify-center items-center">
                 <a href="#">
-                  <h5 className="text-xl font-bold tracking-tight text-center text-gray-900 dark:text-white">
+                  <h5 className="text-xl font-bold tracking-tight text-center text-black">
                     GusHer
                   </h5>
                 </a>
@@ -122,7 +107,7 @@ export default function AboutPage() {
               </div>
               <div className="p-2 justify-center items-center">
                 <a href="#">
-                  <h5 className="text-xl font-bold tracking-tight text-center text-gray-900 dark:text-white">
+                  <h5 className="text-xl font-bold tracking-tight text-center text-black">
                     GusHer
                   </h5>
                 </a>
@@ -137,7 +122,7 @@ export default function AboutPage() {
               </div>
               <div className="p-2 justify-center items-center">
                 <a href="#">
-                  <h5 className="text-xl font-bold tracking-tight text-center text-gray-900 dark:text-white">
+                  <h5 className="text-xl font-bold tracking-tight text-center text-black">
                     GusHer
                   </h5>
                 </a>
@@ -152,7 +137,7 @@ export default function AboutPage() {
               </div>
               <div className="p-2 justify-center items-center">
                 <a href="#">
-                  <h5 className="text-xl font-bold tracking-tight text-center text-gray-900 dark:text-white">
+                  <h5 className="text-xl font-bold tracking-tight text-center text-black">
                     GusHer
                   </h5>
                 </a>
@@ -167,7 +152,7 @@ export default function AboutPage() {
               </div>
               <div className="p-2 justify-center items-center">
                 <a href="#">
-                  <h5 className="text-xl font-bold tracking-tight text-center text-gray-900 dark:text-white">
+                  <h5 className="text-xl font-bold tracking-tight text-center text-black">
                     GusHer
                   </h5>
                 </a>
@@ -182,7 +167,7 @@ export default function AboutPage() {
               </div>
               <div className="p-2 justify-center items-center">
                 <a href="#">
-                  <h5 className="text-xl font-bold tracking-tight text-center text-gray-900 dark:text-white">
+                  <h5 className="text-xl font-bold tracking-tight text-center text-black">
                     GusHer
                   </h5>
                 </a>
@@ -197,7 +182,7 @@ export default function AboutPage() {
               </div>
               <div className="p-2 justify-center items-center">
                 <a href="#">
-                  <h5 className="text-xl font-bold tracking-tight text-center text-gray-900 dark:text-white">
+                  <h5 className="text-xl font-bold tracking-tight text-center text-black">
                     GusHer
                   </h5>
                 </a>
@@ -212,7 +197,7 @@ export default function AboutPage() {
               </div>
               <div className="p-2 justify-center items-center">
                 <a href="#">
-                  <h5 className="text-xl font-bold tracking-tight text-center text-gray-900 dark:text-white">
+                  <h5 className="text-xl font-bold tracking-tight text-center text-black">
                     GusHer
                   </h5>
                 </a>
