@@ -80,7 +80,7 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-3">
               <div className="flex justify-start items-center">
                 <div className="block">
-                  <div className="max-w-xl font-bold leading-relaxed font-sans font-montserrat md:text-5xl text-4xl text-start">
+                  <div className="max-w-xl font-bold leading-relaxed md:text-5xl text-4xl text-start">
                     Nex gives small to midsize businesses access to world class
                     software & design
                   </div>
@@ -89,7 +89,7 @@ export default function Home() {
                       href={siteConfig.links.whatsapp}
                       color="primary"
                       variant="shadow"
-                      className="flex items-center shadow-[#6B3EF1] font-sans font-montserrat bg-[#6B3EF1] text-lg font-medium py-6 px-10 "
+                      className="flex items-center shadow-[#6B3EF1] bg-[#6B3EF1] text-lg font-medium py-6 px-10 "
                     >
                       Consultation Now
                     </Button>
@@ -115,24 +115,24 @@ export default function Home() {
       <section className="relative h-full  flex flex-col md:mt-[6%] md:py-10">
         <div className="md:h-full h-auto flex justify-center items-start">
           <div className="container">
-            <div className="font-[700] font-sans font-montserrat md:text-4xl leading-normal text-[34px] text-center">
+            <div className="font-[700] md:text-4xl leading-normal text-[34px] text-center">
               Building apps & branding visions across a range of industries,
               markets, and countries through 4 core services:
             </div>
             <div className="pt-[50px] max-w-full">
               <div className="grid md:grid-cols-2 lg:grid-cols-4 md:gap-4 grid-cols-1 gap-4">
-                <Link href="/service">
-                  <div className="flex justify-center rounded-2xl transition duration-300 ease-in-out transform hover:shadow-lg">
+                <div className="flex justify-center rounded-2xl transition duration-300 ease-in-out transform hover:shadow-lg">
+                  <Link href="/service">
                     <Card
                       className="w-full md:w-full lg:w-full h-[46vh] md:h-[46vh] shadow-none border space-y-5 p-4"
                       radius="lg"
                     >
                       <div className="grid grid-rows-2">
                         <div>
-                          <div className="font-bold font-sans font-montserrat text-xl md:text-2xl text-[#F66641]">
+                          <div className="font-bold text-xl md:text-2xl text-[#F66641]">
                             Web & Mobile Development
                           </div>
-                          <div className="h-auto  font-thin text-gray-600 font-sans font-montserrat text-lg pt-6 leading-normal">
+                          <div className="h-auto  font-thin text-gray-600 text-lg pt-6 leading-normal">
                             We provide fast, reliable, and secure mobile and web
                             applications with consistent design across mobile
                             and desktop.
@@ -141,7 +141,7 @@ export default function Home() {
                         <div className="absolute bottom-[20px] left-[20px]">
                           <div className="pt-[100px] md:pt-[28px] flex justify-between">
                             <Link href="/service">
-                              <Button className="border-[#FFA712] font-sans font-montserrat font-medium rounded-full w-auto border-2 text-[#FFA712] hover:bg-[#FFA712] bg-transparant hover:text-white">
+                              <Button className="border-[#FFA712] font-medium rounded-full w-auto border-2 text-[#FFA712] hover:bg-[#FFA712] bg-transparant hover:text-white">
                                 Learn More
                                 <div>
                                   <svg
@@ -166,22 +166,22 @@ export default function Home() {
                         </div>
                       </div>
                     </Card>
-                  </div>
-                </Link>
+                  </Link>
+                </div>
 
-                <Link href="/service">
-                  <div className="flex justify-center rounded-2xl transition duration-300 ease-in-out transform hover:shadow-lg">
+                <div className="flex justify-center rounded-2xl transition duration-300 ease-in-out transform hover:shadow-lg">
+                  <Link href="/service">
                     <Card
                       className="w-full md:w-full lg:w-full h-[46vh] md:h-[46vh] shadow-none border space-y-5 p-4"
                       radius="lg"
                     >
                       <div className="grid grid-rows-2">
                         <div>
-                          <div className="font-bold flex-col font-sans font-montserrat text-xl md:text-2xl text-[#F66641]">
+                          <div className="font-bold flex-col text-xl md:text-2xl text-[#F66641]">
                             <div>Branding & </div>
                             <div>Design</div>
                           </div>
-                          <div className="h-auto font-light font-sans font-montserrat text-lg pt-6 leading-normal">
+                          <div className="h-auto font-light text-lg pt-6 leading-normal">
                             We offer web3 and solidity engineering services for
                             Crypto Tokens, NFT projects, and DeFi on
                             EVM-compatible blockchains.
@@ -191,7 +191,7 @@ export default function Home() {
                         <div className="absolute bottom-[20px] left-[20px]">
                           <div className="pt-[100px] md:pt-[28px] flex justify-between">
                             <Link href="/service">
-                              <Button className="border-[#FFA712] font-sans font-montserrat font-medium rounded-full w-auto border-2 text-[#FFA712] hover:bg-[#FFA712] bg-transparant hover:text-white">
+                              <Button className="border-[#FFA712] font-medium rounded-full w-auto border-2 text-[#FFA712] hover:bg-[#FFA712] bg-transparant hover:text-white">
                                 Learn More
                                 <div>
                                   <svg
@@ -216,22 +216,22 @@ export default function Home() {
                         </div>
                       </div>
                     </Card>
-                  </div>
-                </Link>
+                  </Link>
+                </div>
 
-                <Link href="/service">
-                  <div className="flex justify-center rounded-2xl transition duration-300 ease-in-out transform hover:shadow-lg">
+                <div className="flex justify-center rounded-2xl transition duration-300 ease-in-out transform hover:shadow-lg">
+                  <Link href="/service">
                     <Card
                       className="w-full md:w-full lg:w-full h-[46vh] md:h-[46vh] shadow-none border space-y-5 p-4"
                       radius="lg"
                     >
                       <div className="grid grid-rows-2">
                         <div>
-                          <div className="font-bold text-xl font-sans font-montserrat md:text-2xl text-[#F66641] block">
+                          <div className="font-bold text-xl md:text-2xl text-[#F66641] block">
                             <div>Database, Server &</div>
                             <div>API</div>
                           </div>
-                          <div className="h-auto font-light font-sans font-montserrat text-lg pt-6 leading-normal">
+                          <div className="h-auto font-light text-lg pt-6 leading-normal">
                             We provide highly scalable network & realtime
                             infrastructure that provides fast respons times
                             across countries, devices & keeps your intellectual
@@ -242,7 +242,7 @@ export default function Home() {
                         <div className="absolute bottom-[20px] left-[20px]">
                           <div className="pt-[100px] md:pt-[28px] flex justify-between">
                             <Link href="/service">
-                              <Button className="border-[#FFA712] font-sans font-montserrat font-medium rounded-full w-auto border-2 text-[#FFA712] hover:bg-[#FFA712] bg-transparant hover:text-white">
+                              <Button className="border-[#FFA712] font-medium rounded-full w-auto border-2 text-[#FFA712] hover:bg-[#FFA712] bg-transparant hover:text-white">
                                 Learn More
                                 <div>
                                   <svg
@@ -267,22 +267,22 @@ export default function Home() {
                         </div>
                       </div>
                     </Card>
-                  </div>
-                </Link>
+                  </Link>
+                </div>
 
-                <Link href="/service">
-                  <div className="flex justify-center rounded-2xl transition duration-300 ease-in-out transform hover:shadow-lg">
+                <div className="flex justify-center rounded-2xl transition duration-300 ease-in-out transform hover:shadow-lg">
+                  <Link href="/service">
                     <Card
                       className="w-full md:w-full lg:w-full h-[46vh] md:h-[46vh] shadow-none border space-y-5 p-4"
                       radius="lg"
                     >
                       <div className="grid grid-rows-2">
                         <div>
-                          <div className="font-bold text-xl font-sans font-montserrat md:text-2xl text-[#F66641] block">
+                          <div className="font-bold text-xl md:text-2xl text-[#F66641] block">
                             <div>Branding &</div>
                             <div>Design</div>
                           </div>
-                          <div className="h-auto font-light font-sans font-montserrat text-lg pt-6 leading-normal">
+                          <div className="h-auto font-light text-lg pt-6 leading-normal">
                             We offer a wide range of design services centered
                             around High-level Design Prototypes, UX Psychology
                             Principles, and Brand Positioning
@@ -292,7 +292,7 @@ export default function Home() {
                         <div className="absolute bottom-[20px] left-[20px]">
                           <div className="pt-[100px] md:pt-[28px] flex justify-between">
                             <Link href="/service">
-                              <Button className="border-[#FFA712] font-sans font-montserrat font-medium rounded-full w-auto border-2 text-[#FFA712] hover:bg-[#FFA712] bg-transparant hover:text-white">
+                              <Button className="border-[#FFA712] font-medium rounded-full w-auto border-2 text-[#FFA712] hover:bg-[#FFA712] bg-transparant hover:text-white">
                                 Learn More
                                 <div>
                                   <svg
@@ -317,8 +317,8 @@ export default function Home() {
                         </div>
                       </div>
                     </Card>
-                  </div>
-                </Link>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
@@ -329,7 +329,7 @@ export default function Home() {
       {/* Custom App Develop */}
       <section className="relative h-full md:py-0 py-20 md:mt-20 flex flex-col">
         <div className="w-full flex justify-center items-center">
-          <div className="font-bold font-sans font-montserrat text-5xl md:text-6xl md:mb-10 mt-[20%] md:mt-[2%] ld:mt-[0%] text-center">
+          <div className="font-bold text-5xl md:text-6xl md:mb-10 mt-[20%] md:mt-[2%] ld:mt-[0%] text-center">
             Custom app development
           </div>
         </div>
@@ -369,13 +369,13 @@ export default function Home() {
                       </svg>
                     </div>
                   </div>
-                  <div className="font-semibold font-sans font-montserrat text-4xl md:text-4xl text-center my-8 text-[#F66641]">
+                  <div className="font-semibold text-4xl md:text-4xl text-center my-8 text-[#F66641]">
                     Planning
                   </div>
                 </div>
 
                 <div className="pt-[10px] md:pt-[18px] lg:pt-0 font-light text-center text-xl md:text-xl lg:text-xl">
-                  <div className="leading-normal font-sans font-montserrat">
+                  <div className="leading-normal">
                     We proudly follow agile best practices, and ensure that your
                     project is built with the correct tools and a competent
                     team.
@@ -409,13 +409,13 @@ export default function Home() {
                     </div>
                   </div>
 
-                  <div className="font-semibold font-sans font-montserrat text-[#F66641] text-4xl md:text-4xl text-center my-8">
+                  <div className="font-semibold text-[#F66641] text-4xl md:text-4xl text-center my-8">
                     Optimization
                   </div>
                 </div>
 
                 <div className="pt-[10px] md:pt-[18px] lg:pt-0 font-light text-center text-xl md:text-xl lg:text-xl">
-                  <div className="leading-normal font-sans font-montserrat">
+                  <div className="leading-normal">
                     Our experienced engineering team ensures your application
                     has optimal load times and follows modern best practices.
                   </div>
@@ -447,13 +447,13 @@ export default function Home() {
                       </svg>
                     </div>
                   </div>
-                  <div className="font-semibold text-[#F66641] font-sans font-montserrat text-4xl md:text-4xl text-center my-8">
+                  <div className="font-semibold text-[#F66641] text-4xl md:text-4xl text-center my-8">
                     Synergy
                   </div>
                 </div>
 
                 <div className="pt-[10px] md:pt-[18px] lg:pt-0 font-light text-center text-xl md:text-xl lg:text-xl">
-                  <div className="leading-normal font-sans font-montserrat">
+                  <div className="leading-normal">
                     We understand that projects are not one time things, and
                     work closely with our clients to ensure a smooth code
                     transfer and launch.
@@ -468,7 +468,7 @@ export default function Home() {
 
       {/* Portofolio */}
       <section className="relative h-full flex flex-col md:mt-[6%] md:py-10">
-        <div className="text-center font-bold text-4xl md:text-6xl font-sans font-montserrat">
+        <div className="text-center font-bold text-4xl md:text-6xl">
           Recent works
         </div>
         <div ref={sliderRef} className="keen-slider py-10">
@@ -480,16 +480,16 @@ export default function Home() {
               >
                 <div className="p-4 grid ">
                   <div>
-                    <div className="font-light text-2xl pb-4 text-[#FFA712] font-sans font-montserrat">
+                    <div className="font-light text-2xl pb-4 text-[#FFA712]">
                       Web & Mobile Development, Branding & Design
                     </div>
                   </div>
                   <div className="h-full grid md:grid-cols-2 grid-cols-1 pt-10 pb-6 justify-center items-center">
                     <div className="grid">
-                      <div className="font-bold font-sans font-montserrat text-xl md:text-4xl mb-10 text-start">
+                      <div className="font-bold text-xl md:text-4xl mb-10 text-start">
                         Bali Jadma Tour - Agent Tour
                       </div>
-                      <div className="h-auto font-light font-sans font-montserrat text-lg text-gray-500 text-start pr-10 leading-normal">
+                      <div className="h-auto font-light text-lg text-gray-500 text-start pr-10 leading-normal">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
                         magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -514,7 +514,7 @@ export default function Home() {
                   </div>
                   <div className="flex justify-between items-center">
                     <div className="text-start">
-                      <div className="font-regular font-sans font-montserrat text-[#FFA712]">
+                      <div className="font-regular text-[#FFA712]">
                         balijadmatour.com
                       </div>
                     </div>
@@ -564,16 +564,16 @@ export default function Home() {
               >
                 <div className="p-4 grid ">
                   <div>
-                    <div className="font-light font-sans font-montserrat text-2xl pb-2 text-[#FFA712]">
+                    <div className="font-light text-2xl pb-2 text-[#FFA712]">
                       Web & Mobile Development, Branding & Design
                     </div>
                   </div>
                   <div className="h-full grid md:grid-cols-2 grid-cols-1 pt-10 pb-6 justify-center items-center">
                     <div className="grid">
-                      <div className="font-bold font-sans font-montserrat text-xl md:text-4xl pb-8 text-start">
+                      <div className="font-bold text-xl md:text-4xl pb-8 text-start">
                         Bali Jadma Tour - Agent Tour
                       </div>
-                      <div className="h-auto font-light font-sans font-montserrat text-lg leading-normal text-gray-500 text-start pr-10">
+                      <div className="h-auto font-light text-lg leading-normal text-gray-500 text-start pr-10">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
                         magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -598,7 +598,7 @@ export default function Home() {
                   </div>
                   <div className="flex justify-between items-center">
                     <div className="text-start">
-                      <div className="font-regular font-sans font-montserrat text-[#FFA712]">
+                      <div className="font-regular text-[#FFA712]">
                         balijadmatour.com
                       </div>
                     </div>
@@ -646,7 +646,7 @@ export default function Home() {
       {/* Brand */}
       <section className="w-full h-auto py-[8%]">
         <div className="w-full text-center">
-          <div className="text-center font-sans font-montserrat font-bold text-4xl md:text-6xl">
+          <div className="text-center font-bold text-4xl md:text-6xl">
             Some of our trusted clients
           </div>
         </div>
@@ -727,10 +727,8 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 grid-rows-1">
             <div className="grid items-center">
               <div>
-                <div className="font-bold font-sans font-montserrat text-6xl pb-10">
-                  Why Nex?
-                </div>
-                <div className="pr-10 font-light font-sans font-montserrat leading-normal text-2xl pb-8">
+                <div className="font-bold text-6xl pb-10">Why Nex?</div>
+                <div className="pr-10 font-light leading-normal text-2xl pb-8">
                   We are a thought collective, working directly with our clients
                   to create, build, and grow holistic software experiences.
                   Using creative and critical thinking to tell our clients
@@ -740,7 +738,7 @@ export default function Home() {
               <div>
                 <div>
                   <Button
-                    className="px-8 shadow-[#F66641] bg-[#F66641] font-medium font-sans font-montserrat text-md py-6 rounded-full w-[250px]"
+                    className="px-8 shadow-[#F66641] bg-[#F66641] font-medium text-md py-6 rounded-full w-[250px]"
                     color="primary"
                   >
                     Learn More
@@ -769,15 +767,13 @@ export default function Home() {
       <section>
         <div className="py-10">
           <div className="py-20 flex justify-center items-start">
-            <div className="font-bold text-6xl font-sans font-montserrat">
-              Have any questions?
-            </div>
+            <div className="font-bold text-6xl">Have any questions?</div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 md:gap-10">
             <div>
               <Accordion variant="light">
                 <AccordionItem
-                  className="shadow-md px-6 py-2 my-6 rounded-xl font-semibold font-sans font-montserrat border border-[#FBCB78]"
+                  className="shadow-md px-6 py-2 my-6 rounded-xl font-semibold border border-[#FBCB78]"
                   key="1"
                   aria-label="Accordion 1"
                   title="How do I get started?"
@@ -787,7 +783,7 @@ export default function Home() {
               </Accordion>
               <Accordion variant="light">
                 <AccordionItem
-                  className="shadow-md px-6 py-2 my-6 rounded-xl font-semibold font-sans font-montserrat border border-[#FBCB78]"
+                  className="shadow-md px-6 py-2 my-6 rounded-xl font-semibold border border-[#FBCB78]"
                   key="1"
                   aria-label="Accordion 1"
                   title="What platform do you use to build the website?"
@@ -799,7 +795,7 @@ export default function Home() {
             <div>
               <Accordion variant="light">
                 <AccordionItem
-                  className="shadow-md px-6 py-2 md:my-6 mb-6 rounded-xl font-semibold font-sans font-montserrat border border-[#FBCB78]"
+                  className="shadow-md px-6 py-2 md:my-6 mb-6 rounded-xl font-semibold border border-[#FBCB78]"
                   key="1"
                   aria-label="Accordion 1"
                   title="Have you worked with any large reputable brands?"
@@ -809,7 +805,7 @@ export default function Home() {
               </Accordion>
               <Accordion variant="light">
                 <AccordionItem
-                  className="shadow-md px-6 py-2 my-6 rounded-xl font-semibold font-sans font-montserrat border border-[#FBCB78]"
+                  className="shadow-md px-6 py-2 my-6 rounded-xl font-semibold border border-[#FBCB78]"
                   key="1"
                   aria-label="Accordion 1"
                   title="Does Yello offer a remote engineering team?"

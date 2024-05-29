@@ -11,7 +11,7 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      sans: ["Montserrat", "sans-serif"],
+      sans: ["Raleway", "sans-serif"],
     },
   },
   // darkMode: "class",
