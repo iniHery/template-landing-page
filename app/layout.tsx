@@ -13,10 +13,7 @@ export const metadata: Metadata = {
     template: `%s - ${siteConfig.name}`,
   },
   description: siteConfig.description,
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "white" },
-    // { media: "(prefers-color-scheme: dark)", color: "black" },
-  ],
+  themeColor: [{ media: "(prefers-color-scheme: light)", color: "white" }],
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon-16x16.png",
@@ -40,31 +37,10 @@ export default function RootLayout({
       >
         <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
           <div className="relative flex flex-col h-screen">
-            {/* <div
-              className="absolute inset-0 bg-cover bg-center bg-fixed h-auto"
-              style={{
-                backgroundImage:
-                  "url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
-              }}
-            ></div>
-
-            <div className="absolute inset-0 bg-black bg-opacity-75"></div> */}
-
             <Navbar />
             <main className="container mx-auto max-w-7xl pt-4 px-6 flex-grow ">
               {children}
             </main>
-            {/* <footer className="w-full flex items-center justify-center py-3 ">
-              <Link
-                isExternal
-                className="flex items-center gap-1 text-current"
-                href="https://nextui-docs-v2.vercel.app?utm_source=next-app-template"
-                title="nextui.org homepage"
-              >
-                <span className="text-default-600">Powered by</span>
-                <p className="text-primary">NextUI</p>
-              </Link>
-            </footer> */}
             <footer>
               <div className="mt-10">
                 <div className="bg-gray-100">
