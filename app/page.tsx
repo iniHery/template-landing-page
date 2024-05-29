@@ -467,26 +467,30 @@ export default function Home() {
                 className="w-full md:w-full h-auto space-y-5 p-4 border-1 border-[#FFA712]"
                 radius="lg"
               >
-                <div className="p-6 grid ">
+                <div className="p-4 grid ">
                   <div>
-                    <div className="font-light text-2xl pb-2 text-[#FFA712]">
+                    <div className="font-light text-2xl pb-4 text-[#FFA712]">
                       Web & Mobile Development, Branding & Design
                     </div>
-                    <div className="font-bold text-xl md:text-4xl">
-                      Bali Jadma Tour - Agent Tour
-                    </div>
                   </div>
-                  <div className="h-full grid md:grid-cols-2 grid-cols-1 pt-20 pb-6 justify-center items-center ">
-                    <div className="h-auto font-light text-xl text-start pr-10">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
+                  <div className="h-full grid md:grid-cols-2 grid-cols-1 pt-10 pb-6 justify-center items-center">
+                    <div className="grid">
+                      <div className="font-bold text-xl md:text-4xl mb-10 text-start">
+                        Bali Jadma Tour - Agent Tour
+                      </div>
+                      <div className="h-auto font-light text-lg text-gray-500 text-start pr-10">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat. Duis aute irure dolor in
+                        reprehenderit in voluptate velit esse cillum dolore eu
+                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit
+                        anim id est laborum.
+                      </div>
                     </div>
+
                     <div>
                       <Image
                         className="rounded-xl"
@@ -496,43 +500,45 @@ export default function Home() {
                         height={700}
                       />
                     </div>
-                    <div className=" text-start">
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <div className="text-start">
                       <div className="font-bold text-[#FFA712]">
                         balijadmatour.com
                       </div>
                     </div>
-                  </div>
-                  <div className="flex justify-between items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="28"
-                      height="28"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        fill="none"
-                        stroke="black"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="1.2"
-                        d="m6 8l-4 4m0 0l4 4m-4-4h20"
-                      />
-                    </svg>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="28"
-                      height="28"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        fill="none"
-                        stroke="black"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="1.2"
-                        d="m18 8l4 4m0 0l-4 4m4-4H2"
-                      />
-                    </svg>
+                    <div className="flex gap-8">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="28"
+                        height="28"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="none"
+                          stroke="black"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1.2"
+                          d="m6 8l-4 4m0 0l4 4m-4-4h20"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="28"
+                        height="28"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="none"
+                          stroke="black"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1.2"
+                          d="m18 8l4 4m0 0l-4 4m4-4H2"
+                        />
+                      </svg>
+                    </div>
                   </div>
                 </div>
               </Card>
@@ -545,26 +551,30 @@ export default function Home() {
                 className="w-full md:w-full h-auto space-y-5 p-4 border-1 border-[#FFA712]"
                 radius="lg"
               >
-                <div className="p-6 grid ">
+                <div className="p-4 grid ">
                   <div>
                     <div className="font-light text-2xl pb-2 text-[#FFA712]">
                       Web & Mobile Development, Branding & Design
                     </div>
-                    <div className="font-bold text-xl md:text-4xl">
-                      Bali Jadma Tour - Agent Tour
-                    </div>
                   </div>
-                  <div className="h-full grid md:grid-cols-2 grid-cols-1 pt-20 pb-6 justify-center items-center ">
-                    <div className="h-auto font-light text-xl text-start pr-10">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
+                  <div className="h-full grid md:grid-cols-2 grid-cols-1 pt-10 pb-6 justify-center items-center">
+                    <div className="grid">
+                      <div className="font-bold text-xl md:text-4xl pb-8 text-start">
+                        Bali Jadma Tour - Agent Tour
+                      </div>
+                      <div className="h-auto font-light text-lg text-gray-500 text-start pr-10">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat. Duis aute irure dolor in
+                        reprehenderit in voluptate velit esse cillum dolore eu
+                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit
+                        anim id est laborum.
+                      </div>
                     </div>
+
                     <div>
                       <Image
                         className="rounded-xl"
@@ -574,43 +584,45 @@ export default function Home() {
                         height={700}
                       />
                     </div>
-                    <div className=" text-start">
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <div className="text-start">
                       <div className="font-bold text-[#FFA712]">
                         balijadmatour.com
                       </div>
                     </div>
-                  </div>
-                  <div className="flex justify-between items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="28"
-                      height="28"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        fill="none"
-                        stroke="black"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="1.2"
-                        d="m6 8l-4 4m0 0l4 4m-4-4h20"
-                      />
-                    </svg>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="28"
-                      height="28"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        fill="none"
-                        stroke="black"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="1.2"
-                        d="m18 8l4 4m0 0l-4 4m4-4H2"
-                      />
-                    </svg>
+                    <div className="flex gap-8">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="28"
+                        height="28"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="none"
+                          stroke="black"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1.2"
+                          d="m6 8l-4 4m0 0l4 4m-4-4h20"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="28"
+                        height="28"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="none"
+                          stroke="black"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1.2"
+                          d="m18 8l4 4m0 0l-4 4m4-4H2"
+                        />
+                      </svg>
+                    </div>
                   </div>
                 </div>
               </Card>
@@ -620,13 +632,14 @@ export default function Home() {
       </section>
       {/* Portofolio */}
 
+      {/* Brand */}
       <section className="w-full h-auto py-[8%]">
         <div className="w-full text-center">
           <div className="text-center font-bold text-4xl md:text-6xl">
             Some of our trusted clients
           </div>
         </div>
-        <div className="pt-[8%]">
+        <div className="pt-[4%]">
           <div ref={sliderRun} className="keen-slider">
             <div className="keen-slider__slide number-slide1 w-auto h-[30vh] grid justify-center items-center grid-cols-2 gap-10">
               <Image
@@ -695,24 +708,31 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* Brand */}
 
-      <section className="my-[8%]">
+      {/* About */}
+      <section className="my-[6%]">
         <div className="grid justify-center items-center h-full">
           <div className="grid grid-cols-1 md:grid-cols-3 grid-rows-1">
             <div className="grid items-center">
-              <div className="font-bold text-6xl">Why Nex?</div>
-              <div className="pr-10 font-light text-2xl py-8">
-                We are a thought collective, working directly with our clients
-                to create, build, and grow holistic software experiences. Using
-                creative and critical thinking to tell our clients story.
+              <div>
+                <div className="font-bold text-6xl pb-10">Why Nex?</div>
+                <div className="pr-10 font-light text-2xl pb-8">
+                  We are a thought collective, working directly with our clients
+                  to create, build, and grow holistic software experiences.
+                  Using creative and critical thinking to tell our clients
+                  story.
+                </div>
               </div>
               <div>
-                <Button
-                  className="px-8 shadow-[#F66641] bg-[#F66641] font-medium text-md py-6 rounded-full w-[250px]"
-                  color="primary"
-                >
-                  Learn More
-                </Button>
+                <div>
+                  <Button
+                    className="px-8 shadow-[#F66641] bg-[#F66641] font-medium text-md py-6 rounded-full w-[250px]"
+                    color="primary"
+                  >
+                    Learn More
+                  </Button>
+                </div>
               </div>
             </div>
             <div className="col-span-2 md:pt-0 pt-10">
@@ -730,7 +750,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* About */}
 
+      {/* faq */}
       <section>
         <div className="py-10">
           <div className="py-20 flex justify-center items-start">
@@ -788,6 +810,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* faq */}
     </div>
   );
 }

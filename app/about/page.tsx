@@ -44,18 +44,18 @@ export default function AboutPage() {
                 <div className="grid items-center">
                   <div className="font-bold text-6xl">Why Nex?</div>
                   <div className="pr-10 font-light text-lg md:text-xl py-8">
-                    We are a thought collective, working directly with our
-                    clients to create, build, and grow holistic software
-                    experiences. Using creative and critical thinking to tell
-                    our clients story.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Facere deserunt dignissimos, tempore veritatis quidem vero
+                    eveniet. Animi iure delectus cupiditate dicta odio earum,
+                    non sunt architecto sequi mollitia dolore optio.
                   </div>
                   <div className="pr-10 font-light text-lg md:text-xl py-8">
-                    Our inherent eye for problem-solving reflects seamlessly
-                    through all aspects of our work and is a massive part of our
-                    company's culture; at Yello, we encourage questions and
-                    value our team of enthusiastic dreamers. We believe our
-                    positive approach to work is a key differentiator in Yello's
-                    success in producing quality first.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur.
                   </div>
                   {/* <div>
                     <Button
