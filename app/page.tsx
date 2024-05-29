@@ -9,7 +9,7 @@ import { Accordion, AccordionItem } from "@nextui-org/react";
 import Link from "next/link";
 import { siteConfig } from "@/config/site";
 
-const animation = { duration: 15000, easing: (t: number) => t };
+const animation = { duration: 40000, easing: (t: number) => t };
 
 export default function Home() {
   const [sliderRef] = useKeenSlider({
@@ -17,7 +17,7 @@ export default function Home() {
     slides: {
       origin: "center",
       perView: 1,
-      spacing: 40,
+      spacing: 100,
     },
   });
 
@@ -80,7 +80,7 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-3">
               <div className="flex justify-start items-center">
                 <div className="block">
-                  <div className="max-w-xl font-bold md:leading-relaxed md:text-5xl text-4xl text-start">
+                  <div className="max-w-xl font-bold md:text-5xl text-5xl text-start">
                     Nex gives small to midsize businesses access to world class
                     software & design
                   </div>
@@ -122,202 +122,194 @@ export default function Home() {
             <div className="pt-[50px] max-w-full">
               <div className="grid md:grid-cols-2 lg:grid-cols-4 md:gap-4 grid-cols-1 gap-4">
                 <div className="flex justify-center rounded-2xl transition duration-300 ease-in-out transform hover:shadow-lg">
-                  <Link href="/service">
-                    <Card
-                      className="w-full md:w-full lg:w-full h-[46vh] md:h-[46vh] shadow-none border space-y-5 p-4"
-                      radius="lg"
-                    >
-                      <div className="grid grid-rows-2">
-                        <div>
-                          <div className="font-bold text-xl md:text-2xl text-[#F66641]">
-                            Web & Mobile Development
-                          </div>
-                          <div className="h-auto font-light text-lg pt-6 leading-normal">
-                            We provide fast, reliable, and secure mobile and web
-                            applications with consistent design across mobile
-                            and desktop.
-                          </div>
+                  <Card
+                    className="w-full md:w-full lg:w-full h-[46vh] md:h-[46vh] shadow-none border space-y-5 p-4"
+                    radius="lg"
+                  >
+                    <div className="grid grid-rows-2">
+                      <div>
+                        <div className="font-bold text-xl md:text-2xl text-[#F66641]">
+                          Web & Mobile Development
                         </div>
-                        <div className="absolute bottom-[20px] left-[20px]">
-                          <div className="pt-[100px] md:pt-[28px] flex justify-between">
-                            <Link href="/service">
-                              <Button className="border-[#FFA712] font-medium rounded-full w-auto border-2 text-[#FFA712] hover:bg-[#FFA712] bg-transparant hover:text-white">
-                                Learn More
-                                <div>
-                                  <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="28"
-                                    height="28"
-                                    viewBox="0 0 24 24"
-                                  >
-                                    <path
-                                      fill="none"
-                                      stroke="currentColor"
-                                      stroke-linecap="round"
-                                      stroke-linejoin="round"
-                                      stroke-width="1.2"
-                                      d="m18 8l4 4m0 0l-4 4m4-4H2"
-                                    />
-                                  </svg>
-                                </div>
-                              </Button>
-                            </Link>
-                          </div>
+                        <div className="h-auto font-light text-lg pt-6 leading-normal">
+                          We provide fast, reliable, and secure mobile and web
+                          applications with consistent design across mobile and
+                          desktop.
                         </div>
                       </div>
-                    </Card>
-                  </Link>
+                      <div className="absolute bottom-[20px] left-[20px]">
+                        <div className="pt-[100px] md:pt-[28px] flex justify-between">
+                          <a href="/service">
+                            <Button className="border-[#FFA712] font-medium rounded-full w-auto border-2 text-[#FFA712] hover:bg-[#FFA712] bg-transparant hover:text-white">
+                              Learn More
+                              <div>
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width="28"
+                                  height="28"
+                                  viewBox="0 0 24 24"
+                                >
+                                  <path
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="1.2"
+                                    d="m18 8l4 4m0 0l-4 4m4-4H2"
+                                  />
+                                </svg>
+                              </div>
+                            </Button>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </Card>
                 </div>
 
                 <div className="flex justify-center rounded-2xl transition duration-300 ease-in-out transform hover:shadow-lg">
-                  <Link href="/service">
-                    <Card
-                      className="w-full md:w-full lg:w-full h-[46vh] md:h-[46vh] shadow-none border space-y-5 p-4"
-                      radius="lg"
-                    >
-                      <div className="grid grid-rows-2">
-                        <div>
-                          <div className="font-bold flex md:flex-col text-xl md:text-2xl text-[#F66641]">
-                            <div>Branding & </div>
-                            <div className="pl-1 md:pl-0">Design</div>
-                          </div>
-                          <div className="h-auto font-light text-lg pt-6 leading-normal">
-                            We offer web3 and solidity engineering services for
-                            Crypto Tokens, NFT projects, and DeFi on
-                            EVM-compatible blockchains.
-                          </div>
+                  <Card
+                    className="w-full md:w-full lg:w-full h-[46vh] md:h-[46vh] shadow-none border space-y-5 p-4"
+                    radius="lg"
+                  >
+                    <div className="grid grid-rows-2">
+                      <div>
+                        <div className="font-bold flex md:flex-col text-xl md:text-2xl text-[#F66641]">
+                          <div>Branding & </div>
+                          <div className="pl-1 md:pl-0">Design</div>
                         </div>
-
-                        <div className="absolute bottom-[20px] left-[20px]">
-                          <div className="pt-[100px] md:pt-[28px] flex justify-between">
-                            <Link href="/service">
-                              <Button className="border-[#FFA712] font-medium rounded-full w-auto border-2 text-[#FFA712] hover:bg-[#FFA712] bg-transparant hover:text-white">
-                                Learn More
-                                <div>
-                                  <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="28"
-                                    height="28"
-                                    viewBox="0 0 24 24"
-                                  >
-                                    <path
-                                      fill="none"
-                                      stroke="currentColor"
-                                      stroke-linecap="round"
-                                      stroke-linejoin="round"
-                                      stroke-width="1.2"
-                                      d="m18 8l4 4m0 0l-4 4m4-4H2"
-                                    />
-                                  </svg>
-                                </div>
-                              </Button>
-                            </Link>
-                          </div>
+                        <div className="h-auto font-light text-lg pt-6 leading-normal">
+                          We offer web3 and solidity engineering services for
+                          Crypto Tokens, NFT projects, and DeFi on
+                          EVM-compatible blockchains.
                         </div>
                       </div>
-                    </Card>
-                  </Link>
+
+                      <div className="absolute bottom-[20px] left-[20px]">
+                        <div className="pt-[100px] md:pt-[28px] flex justify-between">
+                          <a href="/service">
+                            <Button className="border-[#FFA712] font-medium rounded-full w-auto border-2 text-[#FFA712] hover:bg-[#FFA712] bg-transparant hover:text-white">
+                              Learn More
+                              <div>
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width="28"
+                                  height="28"
+                                  viewBox="0 0 24 24"
+                                >
+                                  <path
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="1.2"
+                                    d="m18 8l4 4m0 0l-4 4m4-4H2"
+                                  />
+                                </svg>
+                              </div>
+                            </Button>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </Card>
                 </div>
 
                 <div className="flex justify-center rounded-2xl transition duration-300 ease-in-out transform hover:shadow-lg">
-                  <Link href="/service">
-                    <Card
-                      className="w-full md:w-full lg:w-full h-[46vh] md:h-[46vh] shadow-none border space-y-5 p-4"
-                      radius="lg"
-                    >
-                      <div className="grid grid-rows-2">
-                        <div>
-                          <div className="font-bold text-xl md:text-2xl text-[#F66641] flex md:block">
-                            <div>Database, Server &</div>
-                            <div className="pl-1 md:pl-0">API</div>
-                          </div>
-                          <div className="h-auto font-light text-lg pt-6 leading-normal">
-                            We provide highly scalable network & realtime
-                            infrastructure that provides fast respons times
-                            across countries, devices & keeps your intellectual
-                            property safe.
-                          </div>
+                  <Card
+                    className="w-full md:w-full lg:w-full h-[46vh] md:h-[46vh] shadow-none border space-y-5 p-4"
+                    radius="lg"
+                  >
+                    <div className="grid grid-rows-2">
+                      <div>
+                        <div className="font-bold text-xl md:text-2xl text-[#F66641] flex md:block">
+                          <div>Database, Server &</div>
+                          <div className="pl-1 md:pl-0">API</div>
                         </div>
-
-                        <div className="absolute bottom-[20px] left-[20px]">
-                          <div className="pt-[100px] md:pt-[28px] flex justify-between">
-                            <Link href="/service">
-                              <Button className="border-[#FFA712] font-medium rounded-full w-auto border-2 text-[#FFA712] hover:bg-[#FFA712] bg-transparant hover:text-white">
-                                Learn More
-                                <div>
-                                  <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="28"
-                                    height="28"
-                                    viewBox="0 0 24 24"
-                                  >
-                                    <path
-                                      fill="none"
-                                      stroke="currentColor"
-                                      stroke-linecap="round"
-                                      stroke-linejoin="round"
-                                      stroke-width="1.2"
-                                      d="m18 8l4 4m0 0l-4 4m4-4H2"
-                                    />
-                                  </svg>
-                                </div>
-                              </Button>
-                            </Link>
-                          </div>
+                        <div className="h-auto font-light text-lg pt-6 leading-normal">
+                          We provide highly scalable network & realtime
+                          infrastructure that provides fast respons times across
+                          countries, devices & keeps your intellectual property
+                          safe.
                         </div>
                       </div>
-                    </Card>
-                  </Link>
+
+                      <div className="absolute bottom-[20px] left-[20px]">
+                        <div className="pt-[100px] md:pt-[28px] flex justify-between">
+                          <Link href="/service">
+                            <Button className="border-[#FFA712] font-medium rounded-full w-auto border-2 text-[#FFA712] hover:bg-[#FFA712] bg-transparant hover:text-white">
+                              Learn More
+                              <div>
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width="28"
+                                  height="28"
+                                  viewBox="0 0 24 24"
+                                >
+                                  <path
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="1.2"
+                                    d="m18 8l4 4m0 0l-4 4m4-4H2"
+                                  />
+                                </svg>
+                              </div>
+                            </Button>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </Card>
                 </div>
 
                 <div className="flex justify-center rounded-2xl transition duration-300 ease-in-out transform hover:shadow-lg">
-                  <Link href="/service">
-                    <Card
-                      className="w-full md:w-full lg:w-full h-[46vh] md:h-[46vh] shadow-none border space-y-5 p-4"
-                      radius="lg"
-                    >
-                      <div className="grid grid-rows-2">
-                        <div>
-                          <div className="font-bold text-xl md:text-2xl text-[#F66641] flex md:block">
-                            <div>Branding &</div>
-                            <div className="pl-1 md:pl-0">Design</div>
-                          </div>
-                          <div className="h-auto font-light text-lg pt-6 leading-normal">
-                            We offer a wide range of design services centered
-                            around High-level Design Prototypes, UX Psychology
-                            Principles, and Brand Positioning
-                          </div>
+                  <Card
+                    className="w-full md:w-full lg:w-full h-[46vh] md:h-[46vh] shadow-none border space-y-5 p-4"
+                    radius="lg"
+                  >
+                    <div className="grid grid-rows-2">
+                      <div>
+                        <div className="font-bold text-xl md:text-2xl text-[#F66641] flex md:block">
+                          <div>Branding &</div>
+                          <div className="pl-1 md:pl-0">Design</div>
                         </div>
-
-                        <div className="absolute bottom-[20px] left-[20px]">
-                          <div className="pt-[100px] md:pt-[28px] flex justify-between">
-                            <Link href="/service">
-                              <Button className="border-[#FFA712] font-medium rounded-full w-auto border-2 text-[#FFA712] hover:bg-[#FFA712] bg-transparant hover:text-white">
-                                Learn More
-                                <div>
-                                  <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="28"
-                                    height="28"
-                                    viewBox="0 0 24 24"
-                                  >
-                                    <path
-                                      fill="none"
-                                      stroke="currentColor"
-                                      stroke-linecap="round"
-                                      stroke-linejoin="round"
-                                      stroke-width="1.2"
-                                      d="m18 8l4 4m0 0l-4 4m4-4H2"
-                                    />
-                                  </svg>
-                                </div>
-                              </Button>
-                            </Link>
-                          </div>
+                        <div className="h-auto font-light text-lg pt-6 leading-normal">
+                          We offer a wide range of design services centered
+                          around High-level Design Prototypes, UX Psychology
+                          Principles, and Brand Positioning
                         </div>
                       </div>
-                    </Card>
-                  </Link>
+
+                      <div className="absolute bottom-[20px] left-[20px]">
+                        <div className="pt-[100px] md:pt-[28px] flex justify-between">
+                          <Link href="/service">
+                            <Button className="border-[#FFA712] font-medium rounded-full w-auto border-2 text-[#FFA712] hover:bg-[#FFA712] bg-transparant hover:text-white">
+                              Learn More
+                              <div>
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width="28"
+                                  height="28"
+                                  viewBox="0 0 24 24"
+                                >
+                                  <path
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="1.2"
+                                    d="m18 8l4 4m0 0l-4 4m4-4H2"
+                                  />
+                                </svg>
+                              </div>
+                            </Button>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </Card>
                 </div>
               </div>
             </div>
@@ -670,71 +662,94 @@ export default function Home() {
             Some of our trusted clients
           </div>
         </div>
-        <div className="pt-[4%]">
-          <div ref={sliderRun} className="keen-slider">
-            <div className="keen-slider__slide number-slide1 w-auto h-[30vh] grid justify-center items-center grid-cols-2 gap-10">
-              <Image
-                className="rounded-xl"
-                src="/nex-black.png"
-                alt="Picture of the author"
-                width={340}
-                height={340}
-              />
-              <Image
-                className="rounded-xl"
-                src="/nex-black.png"
-                alt="Picture of the author"
-                width={340}
-                height={340}
-              />
+        <div className="md:pt-[4%]">
+          <div ref={sliderRun} className="keen-slider gap-10 md:gap-6">
+            <div className="keen-slider__slide number-slide1 w-auto h-[20vh] grid justify-center items-center grid-cols-3 gap-10 md:gap-6">
+              <div className="flex justify-center items-center">
+                <Image
+                  className="rounded-xl"
+                  src="/nex-black.png"
+                  alt="Picture of the author"
+                  width={320}
+                  height={320}
+                />
+              </div>
+              <div className="flex justify-center items-center">
+                <Image
+                  className="rounded-xl"
+                  src="/nex-black.png"
+                  alt="Picture of the author"
+                  width={320}
+                  height={320}
+                />
+              </div>
+              <div className="flex justify-center items-center">
+                <Image
+                  className="rounded-xl"
+                  src="/nex-black.png"
+                  alt="Picture of the author"
+                  width={320}
+                  height={320}
+                />
+              </div>
             </div>
-            <div className="keen-slider__slide number-slide1 w-auto h-[30vh] grid justify-center items-center grid-cols-2 gap-10">
-              <Image
-                className="rounded-xl"
-                src="/nex-black.png"
-                alt="Picture of the author"
-                width={340}
-                height={340}
-              />
-              <Image
-                className="rounded-xl"
-                src="/nex-black.png"
-                alt="Picture of the author"
-                width={340}
-                height={340}
-              />
+            <div className="keen-slider__slide number-slide1 w-auto h-[20vh] grid justify-center items-center grid-cols-3 gap-10 md:gap-6">
+              <div className="flex justify-center items-center">
+                <Image
+                  className="rounded-xl"
+                  src="/nex-black.png"
+                  alt="Picture of the author"
+                  width={320}
+                  height={320}
+                />
+              </div>
+              <div className="flex justify-center items-center">
+                <Image
+                  className="rounded-xl"
+                  src="/nex-black.png"
+                  alt="Picture of the author"
+                  width={320}
+                  height={320}
+                />
+              </div>
+              <div className="flex justify-center items-center">
+                <Image
+                  className="rounded-xl"
+                  src="/nex-black.png"
+                  alt="Picture of the author"
+                  width={320}
+                  height={320}
+                />
+              </div>
             </div>
-            <div className="keen-slider__slide number-slide1 w-auto h-[30vh] grid justify-center items-center grid-cols-2 gap-10">
-              <Image
-                className="rounded-xl"
-                src="/nex-black.png"
-                alt="Picture of the author"
-                width={340}
-                height={340}
-              />
-              <Image
-                className="rounded-xl"
-                src="/nex-black.png"
-                alt="Picture of the author"
-                width={340}
-                height={340}
-              />
-            </div>
-            <div className="keen-slider__slide number-slide1 w-auto h-[30vh] grid justify-center items-center grid-cols-2 gap-10">
-              <Image
-                className="rounded-xl"
-                src="/nex-black.png"
-                alt="Picture of the author"
-                width={340}
-                height={340}
-              />
-              <Image
-                className="rounded-xl"
-                src="/nex-black.png"
-                alt="Picture of the author"
-                width={340}
-                height={340}
-              />
+            <div className="keen-slider__slide number-slide1 w-auto h-[20vh] grid justify-center items-center grid-cols-3 gap-6">
+              <div className="flex justify-center items-center">
+                <Image
+                  className="rounded-xl"
+                  src="/nex-black.png"
+                  alt="Picture of the author"
+                  width={320}
+                  height={320}
+                />
+              </div>
+              <div className="flex justify-center items-center">
+                <Image
+                  className="rounded-xl"
+                  src="/nex-black.png"
+                  alt="Picture of the author"
+                  width={320}
+                  height={320}
+                />
+              </div>
+              <div className="flex justify-center items-center">
+                <Image
+                  className="rounded-xl"
+                  src="/nex-black.png"
+                  alt="Picture of the author"
+                  width={320}
+                  height={320}
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -745,10 +760,24 @@ export default function Home() {
       <section className="my-[6%]">
         <div className="grid justify-center items-center h-full">
           <div className="grid grid-cols-1 md:grid-cols-3 grid-rows-1">
+            <div className="col-span-2 md:pt-0 pb-10 block md:hidden">
+              <div>
+                <Image
+                  className="rounded-2xl"
+                  src="https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="A photo of a serene lake in the mountains"
+                  width={100}
+                  height={50}
+                  layout="responsive"
+                />
+              </div>
+            </div>
             <div className="grid items-center">
               <div>
-                <div className="font-bold text-6xl pb-10">Why Nex?</div>
-                <div className="pr-10 font-light leading-normal text-2xl pb-8">
+                <div className="font-bold text-6xl pb-10 text-center md:text-start">
+                  Why Nex?
+                </div>
+                <div className="md:pr-10 font-light text-center md:text-start leading-normal text-2xl pb-8">
                   We are a thought collective, working directly with our clients
                   to create, build, and grow holistic software experiences.
                   Using creative and critical thinking to tell our clients
@@ -756,7 +785,7 @@ export default function Home() {
                 </div>
               </div>
               <div>
-                <div>
+                <div className="w-full flex justify-center md:justify-start items-center">
                   <Button
                     className="px-8 shadow-[#F66641] bg-[#F66641] font-medium text-md py-6 rounded-full w-[250px]"
                     color="primary"
@@ -766,7 +795,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-span-2 md:pt-0 pt-10">
+            <div className="col-span-2 md:pt-0 pt-10 hidden md:block">
               <div>
                 <Image
                   className="rounded-2xl"
@@ -787,7 +816,9 @@ export default function Home() {
       <section>
         <div className="py-10">
           <div className="py-20 flex justify-center items-start">
-            <div className="font-bold text-6xl">Have any questions?</div>
+            <div className="font-bold text-6xl text-center md:text-start">
+              Have any questions?
+            </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 md:gap-10">
             <div>
