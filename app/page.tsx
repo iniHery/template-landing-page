@@ -123,7 +123,7 @@ export default function Home() {
               <div className="grid md:grid-cols-2 lg:grid-cols-4 md:gap-4 grid-cols-1 gap-4">
                 <div className="flex justify-center rounded-2xl transition duration-300 ease-in-out transform hover:shadow-lg">
                   <Card
-                    className="w-full md:w-full lg:w-full h-[46vh] md:h-[46vh] shadow-none border space-y-5 p-4"
+                    className="w-full md:w-full lg:w-full h-[46vh] md:h-[70vh] shadow-none border space-y-5 p-4"
                     radius="lg"
                   >
                     <div className="grid grid-rows-2">
@@ -169,7 +169,7 @@ export default function Home() {
 
                 <div className="flex justify-center rounded-2xl transition duration-300 ease-in-out transform hover:shadow-lg">
                   <Card
-                    className="w-full md:w-full lg:w-full h-[46vh] md:h-[46vh] shadow-none border space-y-5 p-4"
+                    className="w-full md:w-full lg:w-full h-[46vh] md:h-[70vh] shadow-none border space-y-5 p-4"
                     radius="lg"
                   >
                     <div className="grid grid-rows-2">
@@ -217,14 +217,14 @@ export default function Home() {
 
                 <div className="flex justify-center rounded-2xl transition duration-300 ease-in-out transform hover:shadow-lg">
                   <Card
-                    className="w-full md:w-full lg:w-full h-[46vh] md:h-[46vh] shadow-none border space-y-5 p-4"
+                    className="w-full md:w-full lg:w-full h-[46vh] md:h-[70vh] shadow-none border space-y-5 p-4"
                     radius="lg"
                   >
                     <div className="grid grid-rows-2">
                       <div>
-                        <div className="font-bold text-xl md:text-2xl text-[#F66641] flex md:block">
-                          <div>Database, Server &</div>
-                          <div className="pl-1 md:pl-0">API</div>
+                        <div className="font-bold text-xl md:text-2xl text-[#F66641]">
+                          <div>Database, Server</div>
+                          <div className="pl-1 md:pl-0">& API</div>
                         </div>
                         <div className="h-auto font-light text-lg pt-6 leading-normal">
                           We provide highly scalable network & realtime
@@ -266,7 +266,7 @@ export default function Home() {
 
                 <div className="flex justify-center rounded-2xl transition duration-300 ease-in-out transform hover:shadow-lg">
                   <Card
-                    className="w-full md:w-full lg:w-full h-[46vh] md:h-[46vh] shadow-none border space-y-5 p-4"
+                    className="w-full md:w-full lg:w-full h-[46vh] md:h-[70vh] shadow-none border space-y-5 p-4"
                     radius="lg"
                   >
                     <div className="grid grid-rows-2">
