@@ -38,13 +38,13 @@ export default function AboutPage() {
               <div className="grid grid-cols-1 md:grid-cols-3 grid-rows-1">
                 <div className="grid items-center">
                   <div className="font-bold text-6xl">Why Nex?</div>
-                  <div className="pr-10 font-light leading-normal text-md py-4">
+                  <div className="pr-10 font-light leading-normal text-md md:text-lg py-4">
                     NEX is a multidisciplinary software engineering company with
                     over eight years of experience in the startup and enterprise
                     world, focusing on helping aspiring entrepreneurs, promising
                     startups, and growing companies build their greatest ideas.
                   </div>
-                  <div className="pr-10 font-light leading-normal text-md">
+                  <div className="pr-10 font-light leading-normal text-md md:text-lg">
                     Our inherent eye for problem-solving reflects seamlessly
                     through all aspects of our work and is a massive part of our
                     company&apos;s culture; at NEX, we encourage questions and
@@ -54,7 +54,7 @@ export default function AboutPage() {
                   </div>
                 </div>
                 <div className="col-span-2 md:pt-0 pt-10">
-                  <div>
+                  <div className="h-full flex justify-center items-center">
                     <Image
                       className="rounded-2xl"
                       src="https://plus.unsplash.com/premium_photo-1677171749355-4ad563d86165?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
