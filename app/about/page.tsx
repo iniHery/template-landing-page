@@ -38,13 +38,13 @@ export default function AboutPage() {
               <div className="grid grid-cols-1 md:grid-cols-3 grid-rows-1">
                 <div className="grid items-center">
                   <div className="font-bold text-6xl">Why Nex?</div>
-                  <div className="pr-10 font-light leading-normal text-lg md:text-xl py-8">
+                  <div className="pr-10 font-light leading-normal text-md py-4">
                     NEX is a multidisciplinary software engineering company with
                     over eight years of experience in the startup and enterprise
                     world, focusing on helping aspiring entrepreneurs, promising
                     startups, and growing companies build their greatest ideas.
                   </div>
-                  <div className="pr-10 font-light leading-normal text-lg md:text-xl py-8">
+                  <div className="pr-10 font-light leading-normal text-md">
                     Our inherent eye for problem-solving reflects seamlessly
                     through all aspects of our work and is a massive part of our
                     company&apos;s culture; at NEX, we encourage questions and
@@ -72,7 +72,7 @@ export default function AboutPage() {
       </Section>
       <section className="w-full">
         <div className="grid items-center h-auto">
-          <div className="my-0">
+          <div className="mt-[80px]">
             <div className="pb-6 text-2xl font-semibold ">Meet the team</div>
             <div className="text-5xl md:text-6xl w-full md:max-w-xl font-bold pb-6">
               The creative people behind NEXCreative
@@ -85,7 +85,7 @@ export default function AboutPage() {
               software development.
             </div>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-4 md:grid-rows-2 pr-0 md:pr-1bg-[#BFECFF]0">
+          <div className="grid grid-cols-1 md:grid-cols-4 md:grid-rows-2">
             <div className="w-full bg-white">
               <div>
                 <div className="bg-blue-200 p-6 h-[40vh] w-full"></div>
@@ -103,7 +103,37 @@ export default function AboutPage() {
             </div>
             <div className="w-full bg-white">
               <div>
-                <div className="bg-blue-400 p-6 h-[40vh] w-full"></div>
+                <div className="bg-purple-200 p-6 h-[40vh] w-full"></div>
+              </div>
+              <div className="p-2 justify-center items-center">
+                <a href="#">
+                  <h5 className="text-xl font-bold tracking-tight text-center text-black">
+                    GusHer
+                  </h5>
+                </a>
+                <p className="mb-3 font-normal text-gray-700 text-center dark:text-gray-400">
+                  CEO & Founder
+                </p>
+              </div>
+            </div>
+            <div className="w-full bg-white">
+              <div>
+                <div className="bg-green-200 p-6 h-[40vh] w-full"></div>
+              </div>
+              <div className="p-2 justify-center items-center">
+                <a href="#">
+                  <h5 className="text-xl font-bold tracking-tight text-center text-black">
+                    GusHer
+                  </h5>
+                </a>
+                <p className="mb-3 font-normal text-gray-700 text-center dark:text-gray-400">
+                  CEO & Founder
+                </p>
+              </div>
+            </div>
+            <div className="w-full bg-white">
+              <div>
+                <div className="bg-rose-200 p-6 h-[40vh] w-full"></div>
               </div>
               <div className="p-2 justify-center items-center">
                 <a href="#">
@@ -133,37 +163,7 @@ export default function AboutPage() {
             </div>
             <div className="w-full bg-white">
               <div>
-                <div className="bg-blue-400 p-6 h-[40vh] w-full"></div>
-              </div>
-              <div className="p-2 justify-center items-center">
-                <a href="#">
-                  <h5 className="text-xl font-bold tracking-tight text-center text-black">
-                    GusHer
-                  </h5>
-                </a>
-                <p className="mb-3 font-normal text-gray-700 text-center dark:text-gray-400">
-                  CEO & Founder
-                </p>
-              </div>
-            </div>
-            <div className="w-full bg-white">
-              <div>
-                <div className="bg-blue-200 p-6 h-[40vh] w-full"></div>
-              </div>
-              <div className="p-2 justify-center items-center">
-                <a href="#">
-                  <h5 className="text-xl font-bold tracking-tight text-center text-black">
-                    GusHer
-                  </h5>
-                </a>
-                <p className="mb-3 font-normal text-gray-700 text-center dark:text-gray-400">
-                  CEO & Founder
-                </p>
-              </div>
-            </div>
-            <div className="w-full bg-white">
-              <div>
-                <div className="bg-blue-400 p-6 h-[40vh] w-full"></div>
+                <div className="bg-orange-200 p-6 h-[40vh] w-full"></div>
               </div>
               <div className="p-2 justify-center items-center">
                 <a href="#">

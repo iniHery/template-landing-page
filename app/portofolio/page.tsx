@@ -79,8 +79,8 @@ export default function PortofolioPage() {
                 >
                   <Card className="shadow-none p-0">
                     <CardBody className="w-full p-0">
-                      <div className="grid grid-cols-3 gap-10">
-                        <div className="col-span-2 bg-blue-200 p-6 rounded-2xl h-[20vh] md:h-[60vh]">
+                      <div className="grid grid-cols-3 gap-4 md:gap-10">
+                        <div className="col-span-2 bg-purple-200 p-6 rounded-2xl h-[26vh] md:h-[60vh]">
                           {/* <Image
                             isZoomed
                             width={1000}
@@ -88,32 +88,32 @@ export default function PortofolioPage() {
                             src="/p1.png"
                           /> */}
                         </div>
-                        <div className="bg-blue-200 p-6 rounded-2xl h-[60vh]"></div>
+                        <div className="bg-[#a9b5ff] p-6 rounded-2xl h-[26vh] md:h-[60vh]"></div>
                       </div>
                     </CardBody>
-                    <CardBody className="w-full h-full px-0 py-10">
-                      <div className="grid grid-cols-3 gap-10">
+                    <CardBody className="w-full h-full px-0 py-4 md:py-10">
+                      <div className="grid grid-cols-3 gap-4 md:gap-10">
                         <div>
-                          <div className="p-4 h-full flex flex-col justify-center items-start text-[20px] md:text-4xl font-bold">
+                          <div className="p-4 h-full flex flex-col justify-center items-start text-md md:text-4xl font-bold leading-4">
                             <div>Thinking creative</div>
                             <div>with NEX.</div>
                           </div>
                         </div>
-                        <div className="bg-blue-200 p-6 rounded-2xl h-[26vh] md:h-[40vh]"></div>
-                        <div className="bg-blue-200 p-6 rounded-2xl h-[26vh] md:h-[40vh]"></div>
+                        <div className="bg-[#f6a541] p-6 rounded-2xl h-[20vh] md:h-[40vh]"></div>
+                        <div className="bg-blue-200 p-6 rounded-2xl h-[20vh] md:h-[40vh]"></div>
                       </div>
                     </CardBody>
                     <CardBody className="w-full p-0">
-                      <div className="grid grid-cols-3 gap-10">
-                        <div className="bg-blue-200 p-6 rounded-2xl h-[60vh]"></div>
-                        <div className="col-span-2 bg-blue-200 p-6 rounded-2xl h-[60vh]"></div>
+                      <div className="grid grid-cols-3 gap-4 md:gap-10">
+                        <div className="bg-[#fbacc8] p-6 rounded-2xl h-[26vh] md:h-[60vh]"></div>
+                        <div className="col-span-2 bg-green-200 p-6 rounded-2xl h-[26vh] md:h-[60vh]"></div>
                       </div>
                     </CardBody>
-                    <CardBody className="w-full h-full px-0 py-10">
-                      <div className="grid grid-cols-3 gap-10">
-                        <div className="bg-blue-200 col-span-2 p-6 rounded-2xl h-[60vh]"></div>
+                    <CardBody className="w-full h-full px-0 py-4 md:py-10">
+                      <div className="grid grid-cols-3 gap-4 md:gap-10">
+                        <div className="bg-[#ff9012] col-span-2 p-6 rounded-2xl h-[26vh] md:h-[60vh]"></div>
                         <div>
-                          <div className="p-4 h-full flex flex-col justify-center items-start text-4xl font-bold">
+                          <div className="p-4 h-full flex flex-col justify-center items-start text-md md:text-4xl font-bold leading-4">
                             <div>Develop a better</div>
                             <div>future.</div>
                           </div>
@@ -125,8 +125,8 @@ export default function PortofolioPage() {
                 <Tab key="design" title="Design">
                   <Card className="shadow-none p-0">
                     <CardBody className="w-full p-0">
-                      <div className="grid grid-cols-3 gap-10">
-                        <div className="col-span-2 bg-blue-200 p-6 rounded-2xl h-[60vh]">
+                      <div className="grid grid-cols-3 gap-4 md:gap-10">
+                        <div className="col-span-2 bg-rose-200 p-6 rounded-2xl h-[26vh] md:h-[60vh]">
                           {/* <Image
                             isZoomed
                             width={1000}
@@ -134,32 +134,32 @@ export default function PortofolioPage() {
                             src="/p1.png"
                           /> */}
                         </div>
-                        <div className="bg-blue-200 p-6 rounded-2xl h-[60vh]"></div>
+                        <div className="bg-[#7988EF] p-6 rounded-2xl h-[26vh] md:h-[60vh]"></div>
                       </div>
                     </CardBody>
-                    <CardBody className="w-full h-full px-0 py-10">
-                      <div className="grid grid-cols-3 gap-10">
+                    <CardBody className="w-full h-full px-0 py-4 md:py-10">
+                      <div className="grid grid-cols-3 gap-4 md:gap-10">
                         <div>
-                          <div className="p-4 h-full flex flex-col justify-center items-start text-4xl font-bold">
+                          <div className="p-4 h-full flex flex-col justify-center items-start text-md md:text-4xl font-bold leading-4">
                             <div>Thinking creative</div>
                             <div>with NEX.</div>
                           </div>
                         </div>
-                        <div className="bg-blue-200 p-6 rounded-2xl h-[40vh]"></div>
-                        <div className="bg-blue-200 p-6 rounded-2xl h-[40vh]"></div>
+                        <div className="bg-[#F66641] p-6 rounded-2xl h-[20vh] md:h-[40vh]"></div>
+                        <div className="bg-green-200 p-6 rounded-2xl h-[20vh] md:h-[40vh]"></div>
                       </div>
                     </CardBody>
                     <CardBody className="w-full p-0">
-                      <div className="grid grid-cols-3 gap-10">
-                        <div className="bg-blue-200 p-6 rounded-2xl h-[60vh]"></div>
-                        <div className="col-span-2 bg-blue-200 p-6 rounded-2xl h-[60vh]"></div>
+                      <div className="grid grid-cols-3 gap-4 md:gap-10">
+                        <div className="bg-[#FFE8F0] p-6 rounded-2xl h-[26vh] md:h-[60vh]"></div>
+                        <div className="col-span-2 bg-blue-200 p-6 rounded-2xl h-[26vh] md:h-[60vh]"></div>
                       </div>
                     </CardBody>
-                    <CardBody className="w-full h-full px-0 py-10">
-                      <div className="grid grid-cols-3 gap-10">
-                        <div className="bg-blue-200 col-span-2 p-6 rounded-2xl h-[60vh]"></div>
+                    <CardBody className="w-full h-full px-0 py-4 md:py-10">
+                      <div className="grid grid-cols-3 gap-4 md:gap-10">
+                        <div className="bg-[#FFA712] col-span-2 p-6 rounded-2xl h-[26vh] md:h-[60vh]"></div>
                         <div>
-                          <div className="p-4 h-full flex flex-col justify-center items-start text-4xl font-bold">
+                          <div className="p-4 h-full flex flex-col justify-center items-start text-md md:text-4xl font-bold leading-4">
                             <div>Develop a better</div>
                             <div>future.</div>
                           </div>

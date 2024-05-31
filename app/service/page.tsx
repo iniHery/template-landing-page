@@ -66,10 +66,10 @@ export default function ServicePage() {
                   />
                 </div>
                 <div className="grid items-center">
-                  <div className="font-bold text-4xl md:text-6xl ">
+                  <div className="font-bold text-4xl md:text-5xl ">
                     Web & Mobile App Development
                   </div>
-                  <div className="pr-10 font-light leading-normal text-lg md:text-2xl py-8">
+                  <div className="pr-10 font-light leading-normal text-lg md:text-xl py-8">
                     Technology and innovation is the heart of our creativity. We
                     combine imagination and functionality for the end users by
                     creating innovative product experiences. We deliver fast,
@@ -77,12 +77,12 @@ export default function ServicePage() {
                     inspiring design across mobile and desktop platforms.
                   </div>
                   <div className="pb-10 grid grid-cols-1 md:grid-cols-2 ">
-                    <ul className="list-disc pl-4 leading-normal text-md md:text-lg font-semibold">
+                    <ul className="list-disc pl-4 leading-normal text-md font-semibold">
                       <li>Animated websites</li>
                       <li>React development</li>
                       <li>JavaScript development</li>
                     </ul>
-                    <ul className="list-disc pl-4 leading-normal text-md md:text-lg font-semibold">
+                    <ul className="list-disc pl-4 leading-normal text-md font-semibold">
                       <li>iOS & Android development</li>
                       <li>Technical project management</li>
                       <li>E-commerce websites</li>
@@ -118,8 +118,8 @@ export default function ServicePage() {
         <div className="h-full md:h-full">
           <div className="pb-[8%] pt-[10%] md:pt-[2%] flex justify-center items-center">
             <div className="grid justify-center items-center">
-              <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-1 gap-8">
-                <div className="col-span-1 md:pt-0 pt-10 grid items-center">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div className="md:pt-0 pt-10 grid items-center">
                   <Image
                     src="https://img.freepik.com/free-vector/organic-flat-web-search-illustration_52683-60699.jpg?t=st=1716174487~exp=1716178087~hmac=cd0220befb9762231ab3ddc0ba7683d60eab75c1bc9c6b43b5baec3f52bf8e58&w=1060"
                     alt="A photo of a serene lake in the mountains"
@@ -128,23 +128,23 @@ export default function ServicePage() {
                     layout="responsive"
                   />
                 </div>
-                <div className="grid items-center">
+                <div className="grid gap-10 items-center">
                   <div className="font-bold text-4xl md:text-6xl">
                     Web3 Development
                   </div>
-                  <div className="pr-10 font-light text-lg md:text-xl py-8">
+                  <div className="pr-10 font-light text-md pt-4 md:pt-0 md:text-xl">
                     With the intent of a fairer, transparent and decentralized
                     version of the internet, Web3 or blockchain technology aims
                     to put data back into the hands of the users. To that end,
                     we offer solid engineering services including crypto tokens,
                     NFT projects, and DeFi on EVM-compatible blockchains.
                   </div>
-                  <div className="pb-10 grid grid-cols-1 md:grid-cols-2">
-                    <ul className="list-disc pl-4 text-md md:text-lg font-semibold">
+                  <div className=" grid grid-cols-1 py-8 md:py-0 md:grid-cols-2">
+                    <ul className="list-disc pl-4 text-md font-semibold">
                       <li>Crypto tokens</li>
                       <li>NFT projects</li>
                     </ul>
-                    <ul className="list-disc pl-4 text-md md:text-lg font-semibold">
+                    <ul className="list-disc pl-4 text-md font-semibold">
                       <li>Smart contract development</li>
                       <li>DeFi projects</li>
                     </ul>
@@ -191,12 +191,12 @@ export default function ServicePage() {
                     countries and devices.
                   </div>
                   <div className="pb-10 grid grid-cols-1 md:grid-cols-2">
-                    <ul className="list-disc pl-4 text-md md:text-lg font-semibold">
+                    <ul className="list-disc pl-4 text-md font-semibold">
                       <li>Google Cloud Platform</li>
                       <li>Custom API development</li>
                       <li>DevOps support</li>
                     </ul>
-                    <ul className="list-disc pl-4 text-md md:text-lg font-semibold">
+                    <ul className="list-disc pl-4 text-md font-semibold">
                       <li>Payment gateway integrations</li>
                       <li>Amazon Web Services support</li>
                     </ul>
@@ -252,13 +252,13 @@ export default function ServicePage() {
                     principles, brand positioning, and branding guidelines.
                   </div>
                   <div className="pb-10 grid grid-cols-1 md:grid-cols-2">
-                    <ul className="list-disc pl-4 text-md md:text-lg font-semibold">
+                    <ul className="list-disc pl-4 text-md font-semibold">
                       <li>UI UX design</li>
                       <li>Web & mobile design</li>
                       <li>Brand guidelines & art direction</li>
                       <li>Graphic design</li>
                     </ul>
-                    <ul className="list-disc pl-4 text-md md:text-lg font-semibold">
+                    <ul className="list-disc pl-4 text-md font-semibold">
                       <li>Consulting</li>
                       <li>Custom illustrations</li>
                       <li>Brand strategy</li>
